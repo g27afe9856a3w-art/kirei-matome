@@ -1,0 +1,111 @@
+baseURL: "https://kirei-matome.com/"
+languageCode: "ja"
+title: "キレイまとめ｜脱毛・美容医療・健康の比較サイト"
+theme: "PaperMod"
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "キレイまとめ"
+  description: "脱毛・美容医療・健康サプリを徹底比較。あなたに合ったサービスが必ず見つかる！"
+  keywords:
+    - 脱毛
+    - 美容医療
+    - 脱毛クリニック比較
+    - 健康サプリ
+    - 美容比較
+  author: "キレイまとめ編集部"
+  images:
+    - "/images/ogp.png"
+
+  defaultTheme: light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "キレイまとめへようこそ！"
+    Content: >
+      脱毛・美容医療・健康サプリを**本音で徹底比較**。
+      実際の料金・口コミ・効果を詳しく解説します。
+      あなたにピッタリのサービスを一緒に見つけましょう！
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+menu:
+  main:
+    - identifier: datsumo
+      name: "脱毛比較"
+      url: /categories/datsumo/
+      weight: 10
+    - identifier: biyou
+      name: "美容医療"
+      url: /categories/biyou/
+      weight: 20
+    - identifier: kenko
+      name: "健康・サプリ"
+      url: /categories/kenko/
+      weight: 30
+    - identifier: okane
+      name: "節約・お金"
+      url: /categories/okane/
+      weight: 40
+    - identifier: ranking
+      name: "ランキング"
+      url: /ranking/
+      weight: 50
+    - identifier: search
+      name: "検索"
+      url: /search/
+      weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
