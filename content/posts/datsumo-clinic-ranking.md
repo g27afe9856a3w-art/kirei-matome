@@ -6,8 +6,9 @@ categories: ["datsumo"]
 tags: ["脱毛クリニック", "ランキング", "比較"]
 description: "2026年最新版！脱毛クリニックのおすすめランキングTOP5を料金・効果・口コミで徹底比較。初めての脱毛でも失敗しない選び方を解説します。"
 cover:
-  image: "/images/eyecatch/eyecatch-datsumo.jpeg"
-  alt: "脱毛クリニック比較"
+  image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=630&fit=crop&crop=center&q=80"
+  alt: "脱毛クリニック比較 - 清潔感あるクリニックのイメージ"
+  caption: "Photo by [Kinga Howard](https://unsplash.com/@kingahoward) on [Unsplash](https://unsplash.com)"
 ---
 
 {{< point title="この記事でわかること" >}}

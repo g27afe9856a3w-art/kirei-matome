@@ -6,8 +6,9 @@ categories: ["datsumo"]
 tags: ["脱毛クリニック", "脱毛サロン", "比較"]
 description: "脱毛サロンと脱毛クリニックの違いを料金・効果・痛み・回数で徹底比較。あなたに合った脱毛方法がわかります。"
 cover:
-  image: "/images/eyecatch/eyecatch-datsumo.jpeg"
-  alt: "脱毛クリニック比較"
+  image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&crop=center&q=80"
+  alt: "脱毛サロンvsクリニック比較"
+  caption: "Photo by [Engin Akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com)"
 ---
 
 {{< point title="この記事を読むとわかること" >}}

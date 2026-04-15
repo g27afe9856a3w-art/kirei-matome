@@ -6,8 +6,9 @@ categories: ["datsumo"]
 tags: ["脱毛", "料金", "相場", "費用"]
 description: "脱毛の料金相場を全身・顔・VIOなど部位別に解説。クリニックとサロンの費用差も比較します。"
 cover:
-  image: "/images/eyecatch/eyecatch-datsumo.jpeg"
-  alt: "脱毛クリニック比較"
+  image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&h=630&fit=crop&crop=center&q=80"
+  alt: "脱毛料金相場の解説"
+  caption: "Photo by [Katie Harp](https://unsplash.com/@katieharp) on [Unsplash](https://unsplash.com)"
 ---
 
 {{< point title="この記事でわかること" >}}
