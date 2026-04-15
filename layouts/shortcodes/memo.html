@@ -1,0 +1,4 @@
+<div class="box-memo">
+  <div class="box-title">{{ .Get "title" | default "メモ" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

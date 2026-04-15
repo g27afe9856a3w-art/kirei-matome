@@ -1,0 +1,4 @@
+<div class="box-info">
+  <div class="box-title">{{ .Get "title" | default "情報" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

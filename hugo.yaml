@@ -5,6 +5,11 @@ theme: "PaperMod"
 paginate: 10
 
 enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -99,6 +104,14 @@ menu:
       name: "検索"
       url: /search/
       weight: 60
+    - identifier: about
+      name: "このサイトについて"
+      url: /about/
+      weight: 70
+    - identifier: privacy
+      name: "プライバシーポリシー"
+      url: /privacy-policy/
+      weight: 80
 
 outputs:
   home:

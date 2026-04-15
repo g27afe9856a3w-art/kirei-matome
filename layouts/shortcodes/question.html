@@ -1,0 +1,4 @@
+<div class="box-question">
+  <div class="box-title">{{ .Get "title" | default "よくある質問" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

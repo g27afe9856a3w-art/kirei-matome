@@ -1,0 +1,7 @@
+<a href="{{ .Get "url" }}" class="related-card">
+  <div class="card-icon">{{ .Get "icon" | default "📄" }}</div>
+  <div class="card-text">
+    <div class="card-label">関連記事</div>
+    <div class="card-title">{{ .Get "title" }}</div>
+  </div>
+</a>
