@@ -1,0 +1,43 @@
+{{/* ヒーローバナー */}}
+<div class="hero-banner-wrap">
+  <img src="/images/eyecatch/hero-banner.jpeg"
+       alt="キレイのヒント、毎日お届け。キレイまとめ"
+       class="hero-banner-img"
+       width="1376" height="774">
+</div>
+
+{{/* カテゴリナビ */}}
+<div class="category-nav">
+  <a href="/categories/datsumo/" class="cat-card cat-datsumo">
+    <span class="cat-icon">✨</span>
+    <span class="cat-name">脱毛比較</span>
+  </a>
+  <a href="/categories/biyou/" class="cat-card cat-biyou">
+    <span class="cat-icon">💄</span>
+    <span class="cat-name">美容医療</span>
+  </a>
+  <a href="/categories/kenko/" class="cat-card cat-kenko">
+    <span class="cat-icon">💊</span>
+    <span class="cat-name">健康・サプリ</span>
+  </a>
+  <a href="/categories/okane/" class="cat-card cat-okane">
+    <span class="cat-icon">💰</span>
+    <span class="cat-name">節約・お金</span>
+  </a>
+</div>
+
+{{/* 元のhome_infoパラメータ表示 */}}
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
