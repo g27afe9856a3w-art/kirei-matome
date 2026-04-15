@@ -30,7 +30,7 @@ params:
     - 美容比較
   author: "キレイまとめ編集部"
   images:
-    - "/images/ogp.png"
+    - "/images/eyecatch/ogp-main.jpeg"
 
   defaultTheme: light
   disableThemeToggle: false

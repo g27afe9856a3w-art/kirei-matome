@@ -5,6 +5,9 @@ draft: false
 categories: ["kenko"]
 tags: ["美白", "サプリ", "日焼け止め", "UVケア"]
 description: "飲む日焼け止め・美白サプリのおすすめランキング7選。成分・効果・口コミを比較して、内側からのUVケアを始めましょう。"
+cover:
+  image: "/images/eyecatch/eyecatch-kenko.jpeg"
+  alt: "健康サプリ比較"
 ---
 
 {{< point title="この記事でわかること" >}}

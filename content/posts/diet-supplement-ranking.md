@@ -5,6 +5,9 @@ draft: false
 categories: ["kenko"]
 tags: ["ダイエット", "サプリ", "ランキング"]
 description: "ダイエットサプリのおすすめランキング10選。成分・効果・口コミを徹底比較して本当に効くサプリを厳選しました。"
+cover:
+  image: "/images/eyecatch/eyecatch-kenko.jpeg"
+  alt: "健康サプリ比較"
 ---
 
 {{< point title="この記事でわかること" >}}

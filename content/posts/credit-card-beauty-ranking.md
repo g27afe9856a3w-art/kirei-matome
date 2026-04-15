@@ -5,6 +5,9 @@ draft: false
 categories: ["okane"]
 tags: ["クレジットカード", "ポイント", "節約", "美容"]
 description: "美容・脱毛費用をお得にするクレジットカード5選。ポイント還元率・特典を比較して、美容費の節約に役立てましょう。"
+cover:
+  image: "/images/eyecatch/eyecatch-okane.jpeg"
+  alt: "節約・ポイ活"
 ---
 
 {{< point title="この記事でわかること" >}}

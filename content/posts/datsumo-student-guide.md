@@ -5,6 +5,9 @@ draft: false
 categories: ["datsumo"]
 tags: ["学生", "脱毛クリニック", "安い", "大学生"]
 description: "学生・大学生向けの安い脱毛クリニック5選。学割・分割払い・無利息ローンを比較して、学生でも始めやすい脱毛を紹介します。"
+cover:
+  image: "/images/eyecatch/eyecatch-student.jpeg"
+  alt: "学生向け脱毛"
 ---
 
 {{< point title="この記事でわかること" >}}

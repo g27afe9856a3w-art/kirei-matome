@@ -5,6 +5,9 @@ draft: false
 categories: ["biyou"]
 tags: ["美容皮膚科", "ランキング", "シミ", "シワ"]
 description: "美容皮膚科のおすすめランキング5選。シミ・シワ・ニキビ跡など悩み別に最適なクリニックを解説します。"
+cover:
+  image: "/images/eyecatch/eyecatch-biyou.jpeg"
+  alt: "美容皮膚科比較"
 ---
 
 {{< point title="この記事でわかること" >}}
