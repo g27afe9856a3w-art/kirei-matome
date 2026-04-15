@@ -1,0 +1,318 @@
+/* =============================
+   キレイまとめ カスタムCSS
+   ============================= */
+
+/* --- カラー変数 --- */
+:root {
+  --primary: #e8637a;
+  --primary-light: #fdf0f2;
+  --accent: #f5a623;
+  --accent-light: #fffbf0;
+  --green: #4caf50;
+  --green-light: #f1faf1;
+  --blue: #2196f3;
+  --blue-light: #f0f7ff;
+  --gray: #f5f5f5;
+  --border-radius: 10px;
+}
+
+/* =============================
+   ポイントボックス
+   ============================= */
+.box-point {
+  background: var(--primary-light);
+  border-left: 5px solid var(--primary);
+  border-radius: var(--border-radius);
+  padding: 18px 20px;
+  margin: 24px 0;
+  position: relative;
+}
+.box-point .box-title {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.box-point .box-title::before {
+  content: "✔";
+}
+
+/* =============================
+   注意ボックス
+   ============================= */
+.box-caution {
+  background: var(--accent-light);
+  border-left: 5px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 20px;
+  margin: 24px 0;
+}
+.box-caution .box-title {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.box-caution .box-title::before {
+  content: "⚠";
+}
+
+/* =============================
+   まとめボックス
+   ============================= */
+.box-summary {
+  background: var(--blue-light);
+  border: 2px solid var(--blue);
+  border-radius: var(--border-radius);
+  padding: 18px 20px;
+  margin: 24px 0;
+}
+.box-summary .box-title {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.box-summary .box-title::before {
+  content: "📝";
+}
+
+/* =============================
+   吹き出し（左）
+   ============================= */
+.speech-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 24px 0;
+}
+.speech-icon {
+  flex-shrink: 0;
+  width: 60px;
+  text-align: center;
+}
+.speech-icon img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+.speech-icon .speech-name {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 4px;
+  color: #666;
+}
+.speech-balloon {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 16px;
+  position: relative;
+  flex: 1;
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+.speech-balloon::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 16px;
+  border: 6px solid transparent;
+  border-right-color: #ddd;
+}
+.speech-balloon::after {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 17px;
+  border: 5px solid transparent;
+  border-right-color: #fff;
+}
+
+/* 吹き出し（右）*/
+.speech-wrap.right {
+  flex-direction: row-reverse;
+}
+.speech-wrap.right .speech-balloon::before {
+  left: auto;
+  right: -12px;
+  border-right-color: transparent;
+  border-left-color: #ddd;
+}
+.speech-wrap.right .speech-balloon::after {
+  left: auto;
+  right: -9px;
+  border-right-color: transparent;
+  border-left-color: #fff;
+}
+
+/* =============================
+   CTAボタン
+   ============================= */
+.cta-btn-wrap {
+  text-align: center;
+  margin: 28px 0;
+}
+.cta-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary), #c0392b);
+  color: #fff !important;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 16px 36px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 15px rgba(232, 99, 122, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(232, 99, 122, 0.5);
+}
+.cta-btn::after {
+  content: " ▶";
+  font-size: 0.85em;
+}
+.cta-btn-sub {
+  display: block;
+  font-size: 0.75em;
+  font-weight: normal;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+
+/* =============================
+   ランキングボックス
+   ============================= */
+.ranking-box {
+  border: 2px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  margin: 28px 0;
+  overflow: hidden;
+}
+.ranking-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--gray);
+  font-weight: bold;
+  font-size: 1.05em;
+}
+.ranking-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  flex-shrink: 0;
+}
+.ranking-num.gold   { background: #f5a623; }
+.ranking-num.silver { background: #9e9e9e; }
+.ranking-num.bronze { background: #cd7f32; }
+.ranking-num.other  { background: #78909c; }
+.ranking-body {
+  padding: 16px;
+}
+.ranking-body table {
+  width: 100%;
+  font-size: 0.9em;
+}
+.ranking-body td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ranking-body td:first-child {
+  font-weight: bold;
+  color: #555;
+  width: 40%;
+}
+
+/* =============================
+   アコーディオン（開閉）
+   ============================= */
+details.accordion {
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  margin: 16px 0;
+  overflow: hidden;
+}
+details.accordion summary {
+  padding: 14px 16px;
+  background: var(--gray);
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+details.accordion summary::before {
+  content: "▶";
+  font-size: 0.75em;
+  transition: transform 0.2s;
+  color: var(--primary);
+}
+details.accordion[open] summary::before {
+  transform: rotate(90deg);
+}
+details.accordion .accordion-body {
+  padding: 16px;
+  background: #fff;
+}
+
+/* =============================
+   テーブル改善
+   ============================= */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+.post-content table th {
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 12px;
+  text-align: center;
+}
+.post-content table td {
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+}
+.post-content table tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* =============================
+   レスポンシブ
+   ============================= */
+@media (max-width: 600px) {
+  .cta-btn {
+    font-size: 1em;
+    padding: 14px 24px;
+  }
+  .speech-icon {
+    width: 48px;
+  }
+  .speech-icon img {
+    width: 44px;
+    height: 44px;
+  }
+}

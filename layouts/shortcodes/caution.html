@@ -1,0 +1,4 @@
+<div class="box-caution">
+  <div class="box-title">{{ .Get "title" | default "注意" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

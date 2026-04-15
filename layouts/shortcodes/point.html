@@ -1,0 +1,4 @@
+<div class="box-point">
+  <div class="box-title">{{ .Get "title" | default "ポイント" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

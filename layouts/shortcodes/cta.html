@@ -1,0 +1,6 @@
+<div class="cta-btn-wrap">
+  <a href="{{ .Get "url" }}" class="cta-btn" target="_blank" rel="nofollow noopener">
+    {{ .Get "text" }}
+    {{ with .Get "sub" }}<span class="cta-btn-sub">{{ . }}</span>{{ end }}
+  </a>
+</div>

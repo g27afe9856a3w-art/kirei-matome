@@ -1,0 +1,4 @@
+<div class="box-summary">
+  <div class="box-title">{{ .Get "title" | default "まとめ" }}</div>
+  <div class="box-body">{{ .Inner | markdownify }}</div>
+</div>

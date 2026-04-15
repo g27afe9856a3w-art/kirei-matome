@@ -1,0 +1,14 @@
+{{ $num := .Get "num" | default "1" }}
+{{ $name := .Get "name" }}
+{{ $numInt := int $num }}
+{{ $class := "other" }}
+{{ if eq $numInt 1 }}{{ $class = "gold" }}{{ end }}
+{{ if eq $numInt 2 }}{{ $class = "silver" }}{{ end }}
+{{ if eq $numInt 3 }}{{ $class = "bronze" }}{{ end }}
+<div class="ranking-box">
+  <div class="ranking-header">
+    <div class="ranking-num {{ $class }}">{{ $num }}</div>
+    <div class="ranking-name">{{ $name }}</div>
+  </div>
+  <div class="ranking-body">{{ .Inner | markdownify }}</div>
+</div>

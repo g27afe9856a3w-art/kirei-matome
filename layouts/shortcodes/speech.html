@@ -1,0 +1,7 @@
+<div class="speech-wrap {{ .Get "dir" }}">
+  <div class="speech-icon">
+    <img src="{{ .Get "img" | default "/images/icon-user.png" }}" alt="{{ .Get "name" }}">
+    <div class="speech-name">{{ .Get "name" }}</div>
+  </div>
+  <div class="speech-balloon">{{ .Inner | markdownify }}</div>
+</div>
