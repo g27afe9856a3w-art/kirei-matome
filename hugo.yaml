@@ -110,6 +110,10 @@ menu:
       name: "💊 健康・サプリ"
       url: /categories/kenko/
       weight: 30
+    - identifier: okane
+      name: "💰 節約・お金"
+      url: /categories/okane/
+      weight: 35
     - identifier: ranking
       name: "🏆 ランキング"
       url: /ranking/
