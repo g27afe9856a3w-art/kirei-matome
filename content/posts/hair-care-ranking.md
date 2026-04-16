@@ -101,7 +101,7 @@ cover:
 | こんな人に | 抜け毛・薄毛が気になる方・全成分にこだわりたい方 |
 {{< /ranking >}}
 
-{{< cta url="#" text="haru kurokamiを公式サイトで確認する" sub="初回お試し価格あり・全額返金保証付き" >}}
+{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1N9L+DCGTYQ+33NQ+63H8I" text="haru kurokamiを公式サイトで確認する" sub="初回お試し価格あり・全額返金保証付き" >}}
 
 ---
 
@@ -282,7 +282,7 @@ cover:
 
 {{< cta url="#" text="BOTANISTシャンプーを公式サイトで確認する" sub="人気No.1ボタニカルシャンプー・定期で15%OFF" >}}
 
-{{< cta url="#" text="haru kurokamiを公式サイトで確認する" sub="全成分植物由来・全額返金保証あり" >}}
+{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1N9L+DCGTYQ+33NQ+63H8I" text="haru kurokamiを公式サイトで確認する" sub="全成分植物由来・全額返金保証あり" >}}
 
 ---
 

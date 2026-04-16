@@ -48,7 +48,7 @@ cover:
 | 特徴 | 高単価案件が豊富・友達紹介で稼げる |
 {{< /ranking >}}
 
-{{< cta url="#" text="ハピタスに無料登録する" sub="今なら登録ボーナスあり" >}}
+{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1N9L+DA33JM+1LP8+BY642" text="ハピタスに無料登録する" sub="日々の生活にハッピーをプラス！" >}}
 
 {{< ranking num="2" name="モッピー｜会員数No.1・案件の幅が広い" >}}
 | 項目 | 内容 |
