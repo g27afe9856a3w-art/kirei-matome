@@ -13,6 +13,12 @@ cover:
 
 {{< updated "2026-04-17" >}}
 
+{{< conclusion title="迷ったら「カルミア美肌クリニック」が一番" >}}
+**シミ・くすみ・毛穴**にトータル対応。医師による丁寧なカウンセリングで、自分に合った最適な美肌プランを提案してもらえます。
+
+▶ [カルミア美肌クリニックの無料カウンセリングを予約](https://px.a8.net/svt/ejp?a8mat=4B1K5K+8Y3J1U+2NSW+BYT9E)
+{{< /conclusion >}}
+
 {{< benefit title="この記事を読めばわかること" >}}
 - 美容皮膚科おすすめランキング**TOP5**
 - シミ・シワ・ニキビ跡など**悩み別のおすすめ施術**
@@ -21,11 +27,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 美容皮膚科って高そうだし怖い…何からはじめればいいの？
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 今は無料カウンセリングやオンライン診療も充実していて、気軽に相談できますよ！まず悩みを整理するところから始めましょう。
 {{< /speech >}}
 
@@ -135,6 +141,15 @@ cover:
 {{< accordion title="男性でも行ける？" >}}
 ほとんどのクリニックで男性の施術も対応しています。最近は男性の来院が増えており、男性専用のメニューを設けているクリニックもあります。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/hair-care-ranking/" icon="💇‍♀️" title="ヘアケアおすすめランキングTOP10" >}}
+{{< related url="/posts/whitening-clinic-guide/" icon="🦷" title="ホワイトニングクリニック比較TOP5" >}}
 
 ---
 

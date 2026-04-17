@@ -21,11 +21,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 コラーゲンサプリって実際に効くの？どれを選べばいいか迷ってる…
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 「低分子コラーゲン＋ビタミンC」の組み合わせで継続すれば、3ヶ月後に肌の調子が変わってくる方が多いですよ！選び方のコツを教えます。
 {{< /speech >}}
 
@@ -123,6 +123,15 @@ cover:
 {{< accordion title="男性が飲んでもいい？" >}}
 もちろんOKです。肌のハリ・関節のケアにもコラーゲンは効果的です。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/diet-supplement-ranking/" icon="⚖️" title="ダイエットサプリおすすめランキングTOP10" >}}
+{{< related url="/posts/protein-ranking/" icon="💪" title="女性向けプロテインおすすめランキングTOP10" >}}
 
 ---
 

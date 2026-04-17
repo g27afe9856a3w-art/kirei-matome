@@ -27,6 +27,16 @@ params:
   env: production
   title: "キレイまとめ"
   description: "脱毛・美容医療・健康サプリを徹底比較。あなたに合ったサービスが必ず見つかる！最新料金・口コミ・体験談を詳しく解説。"
+
+  # Google Search Console認証コード（Search Consoleで取得した英数字を貼り付け）
+  # 例: googleSiteVerification: "abcdefg123456"
+  googleSiteVerification: ""
+
+  # Bing Webmaster Tools認証コード（任意）
+  bingSiteVerification: ""
+
+  # Google Analytics 4 測定ID（例: G-XXXXXXXXXX）
+  googleAnalytics: ""
   keywords:
     - 脱毛
     - 美容医療

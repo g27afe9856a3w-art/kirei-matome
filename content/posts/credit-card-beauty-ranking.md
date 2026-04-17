@@ -1,5 +1,5 @@
 ---
-title: "【節約術】美容・脱毛費用をお得にするクレジットカード5選｜ポイント還元率比較"
+title: "【2026年4月最新】【節約術】美容・脱毛費用をお得にするクレジットカード5選｜ポイント還元率比較"
 date: 2026-04-08
 draft: false
 categories: ["okane"]
@@ -21,11 +21,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 脱毛やエステって高いけど、クレカで払うとお得になるって本当？
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 本当です！10万円の脱毛をポイント還元率1%のカードで払うと、1,000円分のポイントが戻ってきます。さらにポイントサイト経由でカードを作るともっとお得ですよ！
 {{< /speech >}}
 
@@ -117,6 +117,15 @@ cover:
 {{< accordion title="ポイントサイト経由で作るのは安全？" >}}
 ハピタス・モッピーなどの大手ポイントサイトは安全です。10年以上運営している実績があります。不審なサイトは避けましょう。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/poikatsu-guide/" icon="💰" title="ポイ活初心者完全ガイド" >}}
+{{< related url="/posts/credit-card-cashback/" icon="💳" title="美容向け高還元クレジットカードTOP5" >}}
 
 ---
 

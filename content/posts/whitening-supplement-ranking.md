@@ -21,11 +21,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 「飲む日焼け止め」って本当に効果あるの？塗る日焼け止めとどう違うの？
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 完全な代替品にはなりませんが、塗る日焼け止めと組み合わせることで内側から日焼け・シミ対策ができます！特に夏前の3月から飲み始めるのがおすすめですよ。
 {{< /speech >}}
 
@@ -126,6 +126,16 @@ cover:
 {{< accordion title="飲み合わせで注意することは？" >}}
 鉄分サプリとビタミンCを同時に摂ると鉄の吸収が良くなりすぎる場合があります。複数サプリを飲む場合は成分の重複に注意しましょう。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/diet-supplement-ranking/" icon="⚖️" title="ダイエットサプリおすすめランキングTOP10" >}}
+{{< related url="/posts/collagen-supplement-ranking/" icon="✨" title="コラーゲンサプリおすすめランキングTOP10" >}}
+{{< related url="/posts/protein-ranking/" icon="💪" title="女性向けプロテインおすすめランキングTOP10" >}}
 
 ---
 

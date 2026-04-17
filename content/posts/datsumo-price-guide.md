@@ -21,11 +21,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 脱毛って結局いくらかかるの？高いイメージがあって踏み出せない…
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 実は「今の出費」より「生涯コスト」で見るとお得なんです！カミソリ代×10年と比べると、脱毛のほうが安くなるケースも多いですよ。
 {{< /speech >}}
 
@@ -127,6 +127,15 @@ cover:
 {{< accordion title="全身脱毛の「全身」ってどこまで？" >}}
 クリニックによって異なります。顔・VIOが含まれているかを必ず確認してください。含まれない場合は追加料金が発生します。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-salon-vs-clinic/" icon="⚖️" title="医療脱毛 vs サロン脱毛｜徹底比較" >}}
 
 ---
 

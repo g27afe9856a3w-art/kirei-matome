@@ -1,5 +1,5 @@
 ---
-title: "【2026年最新】ホワイトニングおすすめクリニック5選｜歯科・セルフで白い歯を手に入れよう"
+title: "【2026年4月最新】ホワイトニングおすすめクリニック5選｜歯科・セルフで白い歯を手に入れよう"
 date: 2026-04-06
 draft: false
 categories: ["biyou"]
@@ -20,11 +20,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 歯を白くしたいけど、クリニックと市販のホワイトニングって何が違うの？どこに行けばいいかわからない…
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 ホワイトニングには種類があって、それぞれ効果・料金・手軽さが違います！あなたに合った方法を選べるよう、わかりやすく比較してご紹介します。
 {{< /speech >}}
 
@@ -228,6 +228,15 @@ cover:
 {{< accordion title="セルフと歯科どちらがおすすめですか？" >}}
 目的によります。「コスパよく気軽に試したい」ならセルフホワイトニング、「確実に白くしたい・歯の健康も気になる」なら歯科ホワイトニングがおすすめです。まずは無料カウンセリングを受けてみるのも良いでしょう。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/skincare-ranking/" icon="🧴" title="スキンケアコスメおすすめランキングTOP10" >}}
+{{< related url="/posts/hair-care-ranking/" icon="💇‍♀️" title="ヘアケアおすすめランキングTOP10" >}}
 
 ---
 

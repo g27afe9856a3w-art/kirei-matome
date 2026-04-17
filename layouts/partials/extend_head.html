@@ -14,3 +14,68 @@
 
 {{- /* ファビコン */ -}}
 <link rel="icon" type="image/png" href="/favicon.png">
+
+{{- /* Google Search Console 認証 (hugo.yaml params.googleSiteVerification に値を入れると出力される) */ -}}
+{{- with site.Params.googleSiteVerification }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+{{- /* Bing Webmaster Tools 認証 */ -}}
+{{- with site.Params.bingSiteVerification }}
+<meta name="msvalidate.01" content="{{ . }}">
+{{- end }}
+
+{{- /* Google Analytics 4 (hugo.yaml params.googleAnalytics に GA4 ID を入れると出力される) */ -}}
+{{- with site.Params.googleAnalytics }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end }}
+
+{{- /* 構造化データ (JSON-LD) - Organization */ -}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.Title }}",
+  "url": "{{ site.BaseURL }}",
+  "logo": "{{ site.BaseURL }}images/eyecatch/ogp-main.jpeg",
+  "description": "{{ site.Params.description }}"
+}
+</script>
+{{ end }}
+
+{{- /* 構造化データ (JSON-LD) - Article */ -}}
+{{ if and .IsPage (eq .Section "posts") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.description | default .Summary }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}編集部"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.BaseURL }}images/eyecatch/ogp-main.jpeg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}

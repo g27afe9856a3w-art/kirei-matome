@@ -13,6 +13,12 @@ cover:
 
 {{< updated "2026-04-17" >}}
 
+{{< conclusion title="迷ったら「ハピタス」が初心者に最適" >}}
+**業界最大級のポイントサイト**で、買い物・カード発行・旅行予約で1〜30%の還元が得られます。登録無料・友達紹介で初回ボーナスあり。
+
+▶ [ハピタスに無料登録する](https://px.a8.net/svt/ejp?a8mat=4B1N9L+DA33JM+1LP8+BY642)
+{{< /conclusion >}}
+
 {{< benefit title="この記事を読めばわかること" >}}
 - ポイ活で**月1万円稼ぐ具体的な方法**
 - 初心者でも始められる**おすすめポイントサイト5選**
@@ -21,11 +27,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 ポイ活って難しそう…本当に月1万円も稼げるの？
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 戦略を間違えなければ月1万円は十分可能です！特にクレジットカード案件は1件5,000〜1万円以上になることも。コツを教えますね！
 {{< /speech >}}
 
@@ -157,6 +163,15 @@ cover:
 {{< accordion title="家族で一緒にポイ活できる？" >}}
 家族それぞれがポイントサイトに登録してカードを申し込めます。ただし同一カードに家族全員で申し込むことはできません（1人1枚が原則）。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/credit-card-cashback/" icon="💳" title="美容向け高還元クレジットカードTOP5" >}}
+{{< related url="/posts/credit-card-beauty-ranking/" icon="✨" title="美容特典つきクレジットカードランキング" >}}
 
 ---
 

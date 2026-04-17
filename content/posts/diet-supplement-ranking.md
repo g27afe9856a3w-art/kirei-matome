@@ -1,5 +1,5 @@
 ---
-title: "【2026年最新】ダイエットサプリおすすめランキング10選｜目的別に徹底比較"
+title: "【2026年4月最新】ダイエットサプリおすすめランキング10選｜目的別に徹底比較"
 date: 2026-04-09
 draft: false
 categories: ["kenko"]
@@ -21,11 +21,11 @@ cover:
 
 ---
 
-{{< speech name="読者" >}}
+{{< speech name="読者" img="/images/icon-user.png" >}}
 ダイエットサプリって種類が多すぎる。何を選べばいいかわからない…
 {{< /speech >}}
 
-{{< speech name="編集部" dir="right" >}}
+{{< speech name="編集部" img="/images/icon-editor.png" dir="right" >}}
 目的によって選ぶべき成分が変わります！「脂肪燃焼・食欲抑制・腸内環境」の3つから自分の目的を決めてから選ぶと失敗しません。
 {{< /speech >}}
 
@@ -135,6 +135,15 @@ cover:
 {{< accordion title="副作用はある？" >}}
 天然成分のサプリは副作用が少ないですが、体質によってはお腹が緩くなる場合があります。異常を感じたらすぐ中止して医師に相談しましょう。
 {{< /accordion >}}
+
+---
+
+---
+
+## 📚 あわせて読みたい
+
+{{< related url="/posts/collagen-supplement-ranking/" icon="✨" title="コラーゲンサプリおすすめランキングTOP10" >}}
+{{< related url="/posts/protein-ranking/" icon="💪" title="女性向けプロテインおすすめランキングTOP10" >}}
 
 ---
 
