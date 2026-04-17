@@ -36,7 +36,7 @@ params:
   bingSiteVerification: ""
 
   # Google Analytics 4 測定ID（例: G-XXXXXXXXXX）
-  googleAnalytics: ""
+  googleAnalytics: "G-SMMF5K60ZB"
   keywords:
     - 脱毛
     - 美容医療
