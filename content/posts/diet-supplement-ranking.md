@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Brooke Lark](https://unsplash.com/@brookelark) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 目的別おすすめダイエットサプリ**TOP10**
 - 「本当に効く」成分の見分け方
 - 失敗しないサプリの選び方と**飲み合わせの注意**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

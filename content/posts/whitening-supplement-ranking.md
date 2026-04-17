@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Lesly Juarez](https://unsplash.com/@jblesly) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - **飲む日焼け止め・美白サプリTOP7**の比較
 - 「塗る日焼け止め」との**違い・使い分け方**
 - 美白効果を最大化する**飲み方のコツ**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

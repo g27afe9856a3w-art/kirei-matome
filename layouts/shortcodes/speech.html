@@ -1,6 +1,15 @@
 <div class="speech-wrap {{ .Get "dir" }}">
   <div class="speech-icon">
-    <img src="{{ .Get "img" | default "/images/icon-user.png" }}" alt="{{ .Get "name" }}">
+    {{ with .Get "emoji" }}
+      <div class="speech-emoji">{{ . }}</div>
+    {{ else }}
+      {{ if .Get "img" }}
+        <img src="{{ .Get "img" }}" alt="{{ .Get "name" }}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="speech-emoji" style="display:none;">{{ if eq (.Get "dir") "right" }}💁‍♀️{{ else }}🙋‍♀️{{ end }}</div>
+      {{ else }}
+        <div class="speech-emoji">{{ if eq (.Get "dir") "right" }}💁‍♀️{{ else }}🙋‍♀️{{ end }}</div>
+      {{ end }}
+    {{ end }}
     <div class="speech-name">{{ .Get "name" }}</div>
   </div>
   <div class="speech-balloon">{{ .Inner | markdownify }}</div>

@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Green Chameleon](https://unsplash.com/@craftedbygc) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - ポイ活で**月1万円稼ぐ具体的な方法**
 - 初心者でも始められる**おすすめポイントサイト5選**
 - 安全に稼ぐための**注意点と失敗しないコツ**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

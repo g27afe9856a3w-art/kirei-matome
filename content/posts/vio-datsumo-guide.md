@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Fleur](https://unsplash.com/@yer_a_wizard) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - VIO脱毛のおすすめクリニック**TOP5**の比較
 - 恥ずかしさ・痛みへの不安を解消する情報
 - 初めてのVIO脱毛で**失敗しない選び方**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

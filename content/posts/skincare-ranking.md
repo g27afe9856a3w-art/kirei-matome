@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Honey Yanibel Minaya Cruz](https://unsplash.com/@honeyyanibel) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 美容皮膚科おすすめランキング**TOP5**
 - シミ・シワ・ニキビ跡など**悩み別のおすすめ施術**
 - 初めての美容皮膚科で**後悔しない選び方**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Vasily Koloda](https://unsplash.com/@napr0tiv) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 学生・大学生でも始められる**安い脱毛クリニック5選**
 - 学割・月額制・分割払いで**費用を抑える方法**
 - 「今すぐ始めるべき理由」と**タイミングの重要性**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

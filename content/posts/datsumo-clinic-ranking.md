@@ -11,6 +11,8 @@ cover:
   caption: "Photo by [Kinga Howard](https://unsplash.com/@kingahoward) on [Unsplash](https://unsplash.com)"
 ---
 
+{{< updated "2026-04-17" >}}
+
 {{< speech name="読者" img="/images/icon-user.png" >}}
 脱毛クリニックって多すぎてどこがいいかわからない…料金も違うし、正直どこを選べばいいの？
 {{< /speech >}}

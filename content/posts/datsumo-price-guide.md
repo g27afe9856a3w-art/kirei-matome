@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Katie Harp](https://unsplash.com/@katieharp) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 脱毛の**部位別料金相場**（全身・顔・VIO）
 - クリニックとサロンの**費用の違い**
 - 脱毛を**安くする5つのテクニック**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

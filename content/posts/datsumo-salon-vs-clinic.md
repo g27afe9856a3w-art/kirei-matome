@@ -11,6 +11,8 @@ cover:
   caption: "Photo by [Engin Akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com)"
 ---
 
+{{< updated "2026-04-17" >}}
+
 {{< point title="この記事を読むとわかること" >}}
 - 脱毛サロンとクリニックの**根本的な違い**
 - あなたに向いているのはどっちか

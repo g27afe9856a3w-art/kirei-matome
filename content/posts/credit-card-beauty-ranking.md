@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Avery Evans](https://unsplash.com/@averye457) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 美容・脱毛費用を**ポイントでお得にする**カード5選
 - 年会費無料で始められる**コスパ最強の選び方**
 - ポイ活と組み合わせた**上級節約術**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 

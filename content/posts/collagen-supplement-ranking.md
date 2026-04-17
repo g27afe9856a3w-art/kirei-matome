@@ -11,11 +11,13 @@ cover:
   caption: "Photo by [Dose Juice](https://unsplash.com/@dosejuice) on [Unsplash](https://unsplash.com)"
 ---
 
-{{< point title="この記事でわかること" >}}
+{{< updated "2026-04-17" >}}
+
+{{< benefit title="この記事を読めばわかること" >}}
 - 本当に効くコラーゲンサプリ**TOP8**の比較
 - 低分子・高分子の違いと**吸収率のポイント**
 - 美肌効果を高める**正しい飲み方・組み合わせ**
-{{< /point >}}
+{{< /benefit >}}
 
 ---
 
