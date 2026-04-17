@@ -6,7 +6,7 @@ categories: ["datsumo"]
 tags: ["VIO脱毛", "脱毛クリニック", "おすすめ"]
 description: "VIO脱毛のおすすめクリニック5選を紹介。料金・痛み・施術の流れを詳しく解説。初めてのVIO脱毛でも安心して選べます。"
 cover:
-  image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=1200&h=630&fit=crop&crop=center&q=80"
+  image: "/images/eyecatch/eye-vio-datsumo-guide.jpeg"
   alt: "VIO脱毛おすすめクリニック"
   caption: "Photo by [Fleur](https://unsplash.com/@yer_a_wizard) on [Unsplash](https://unsplash.com)"
 ---

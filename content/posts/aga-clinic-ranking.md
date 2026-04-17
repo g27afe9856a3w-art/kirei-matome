@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["AGA", "薄毛治療", "育毛", "クリニック"]
 description: "2026年最新！AGA（男性型脱毛症）治療クリニックのおすすめ5選を料金・効果・特徴で徹底比較。薄毛・抜け毛でお悩みの方に向けて、早期治療の重要性も解説します。"
 cover:
-  image: "/images/eyecatch/ogp-aga.jpeg"
+  image: "/images/eyecatch/eye-aga-clinic-ranking.jpeg"
   alt: "AGA治療クリニック比較"
 ---
 

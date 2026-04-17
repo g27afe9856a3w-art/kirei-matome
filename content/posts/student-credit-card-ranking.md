@@ -6,7 +6,7 @@ categories: ["okane"]
 tags: ["クレジットカード", "学生", "年会費無料"]
 description: "大学生・専門学生向けのクレジットカードを徹底比較。年会費無料・高還元・海外旅行保険付きのおすすめ5枚と審査のポイントを解説。"
 cover:
-  image: "/images/eyecatch/ogp-creditcard.jpeg"
+  image: "/images/eyecatch/eye-student-credit-card-ranking.jpeg"
   alt: "学生向けクレジットカードランキング"
 ---
 

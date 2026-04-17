@@ -6,7 +6,7 @@ categories: ["okane"]
 tags: ["クレジットカード", "ポイント還元", "節約", "美容費"]
 description: "美容・女性向けクレジットカードおすすめ5選。ポイント還元率・美容特典・海外旅行保険を比較して、美容費を賢く節約しましょう。"
 cover:
-  image: "/images/eyecatch/ogp-creditcard.jpeg"
+  image: "/images/eyecatch/eye-credit-card-cashback.jpeg"
   alt: "美容向けクレジットカードおすすめ"
 ---
 

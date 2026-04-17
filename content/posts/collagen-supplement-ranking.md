@@ -6,7 +6,7 @@ categories: ["kenko"]
 tags: ["コラーゲン", "サプリ", "美肌", "ランキング"]
 description: "コラーゲンサプリのおすすめランキング8選。低分子・高分子の違いや正しい飲み方も解説。美肌を目指す方必見です。"
 cover:
-  image: "/images/eyecatch/ogp-protein.jpeg"
+  image: "/images/eyecatch/eye-collagen-supplement-ranking.jpeg"
   alt: "コラーゲンサプリおすすめランキング"
   caption: "Photo by [Dose Juice](https://unsplash.com/@dosejuice) on [Unsplash](https://unsplash.com)"
 ---

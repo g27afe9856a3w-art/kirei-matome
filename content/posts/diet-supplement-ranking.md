@@ -6,7 +6,7 @@ categories: ["kenko"]
 tags: ["ダイエット", "サプリ", "ランキング"]
 description: "ダイエットサプリのおすすめランキング10選。成分・効果・口コミを徹底比較して本当に効くサプリを厳選しました。"
 cover:
-  image: "/images/eyecatch/ogp-protein.jpeg"
+  image: "/images/eyecatch/eye-diet-supplement-ranking.jpeg"
   alt: "ダイエットサプリおすすめランキング"
   caption: "Photo by [Brooke Lark](https://unsplash.com/@brookelark) on [Unsplash](https://unsplash.com)"
 ---

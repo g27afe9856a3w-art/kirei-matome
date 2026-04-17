@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["美容皮膚科", "ランキング", "シミ", "シワ"]
 description: "美容皮膚科のおすすめランキング5選。シミ・シワ・ニキビ跡など悩み別に最適なクリニックを解説します。"
 cover:
-  image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=630&fit=crop&crop=center&q=80"
+  image: "/images/eyecatch/eye-skincare-ranking.jpeg"
   alt: "美容皮膚科おすすめランキング"
   caption: "Photo by [Honey Yanibel Minaya Cruz](https://unsplash.com/@honeyyanibel) on [Unsplash](https://unsplash.com)"
 ---

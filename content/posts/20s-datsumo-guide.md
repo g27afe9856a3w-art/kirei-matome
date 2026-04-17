@@ -6,7 +6,7 @@ categories: ["datsumo"]
 tags: ["脱毛", "20代", "初心者"]
 description: "20代女性が脱毛を始めるなら知っておきたい料金・効果・部位選びの全てを解説。初めてでも失敗しないクリニック・サロンの選び方。"
 cover:
-  image: "/images/eyecatch/eyecatch-datsumo.jpeg"
+  image: "/images/eyecatch/eye-20s-datsumo-guide.jpeg"
   alt: "20代向け脱毛ガイド"
 ---
 

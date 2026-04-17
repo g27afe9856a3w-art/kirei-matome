@@ -6,7 +6,7 @@ categories: ["kenko"]
 tags: ["サプリメント", "ビタミンC", "美肌"]
 description: "ビタミンCサプリを徹底比較。美肌・美白・疲労回復に効くおすすめ10選を成分量・吸収率・コスパで厳選解説。"
 cover:
-  image: "/images/eyecatch/ogp-protein.jpeg"
+  image: "/images/eyecatch/eye-vitamin-c-supplement-ranking.jpeg"
   alt: "ビタミンCサプリランキング"
 ---
 

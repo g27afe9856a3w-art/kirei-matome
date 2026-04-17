@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["ホワイトニング", "セルフケア", "口元"]
 description: "セルフホワイトニングって本当に効果ある？サロン型・自宅ケア型の違いから料金相場・失敗しない選び方までプロが徹底解説。"
 cover:
-  image: "/images/eyecatch/ogp-whitening.jpeg"
+  image: "/images/eyecatch/eye-self-whitening-guide.jpeg"
   alt: "セルフホワイトニングの選び方ガイド"
 ---
 

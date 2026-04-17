@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["メンズ美容", "スキンケア", "初心者"]
 description: "メンズスキンケア初心者向けに、洗顔・化粧水・乳液など絶対に揃えたい必須アイテムと正しい使い方を徹底解説。"
 cover:
-  image: "/images/eyecatch/ogp-aga.jpeg"
+  image: "/images/eyecatch/eye-mens-skincare-guide.jpeg"
   alt: "メンズスキンケア入門ガイド"
 ---
 

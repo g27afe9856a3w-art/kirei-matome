@@ -6,7 +6,7 @@ categories: ["datsumo"]
 tags: ["メンズ脱毛", "男性脱毛", "脱毛クリニック", "メンズ"]
 description: "2026年最新！メンズ脱毛クリニックのおすすめ5選を料金・効果・脱毛部位で徹底比較。男性脱毛初心者でもわかる選び方のポイントを解説します。"
 cover:
-  image: "/images/eyecatch/eyecatch-datsumo.jpeg"
+  image: "/images/eyecatch/eye-mens-datsumo-ranking.jpeg"
   alt: "メンズ脱毛クリニック比較"
 ---
 
