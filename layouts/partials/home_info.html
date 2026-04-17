@@ -48,6 +48,48 @@
   </a>
 </div>
 
+{{/* ===== 人気記事ウィジェット ===== */}}
+<section class="popular-articles-widget">
+  <h2 class="popular-articles-title">🔥 人気記事TOP5</h2>
+  <div class="popular-articles-grid">
+    <a href="/posts/datsumo-clinic-ranking/" class="popular-card">
+      <div class="popular-rank">1</div>
+      <div class="popular-content">
+        <div class="popular-tag">✨ 脱毛</div>
+        <div class="popular-title">脱毛クリニックおすすめランキングTOP5｜料金・効果・口コミ徹底比較</div>
+      </div>
+    </a>
+    <a href="/posts/credit-card-cashback/" class="popular-card">
+      <div class="popular-rank">2</div>
+      <div class="popular-content">
+        <div class="popular-tag">💰 節約</div>
+        <div class="popular-title">美容向け高還元クレジットカードTOP5｜年間数万円お得に</div>
+      </div>
+    </a>
+    <a href="/posts/skincare-ranking/" class="popular-card">
+      <div class="popular-rank">3</div>
+      <div class="popular-content">
+        <div class="popular-tag">💄 美容</div>
+        <div class="popular-title">スキンケアコスメおすすめランキングTOP10｜美肌を叶える人気商品</div>
+      </div>
+    </a>
+    <a href="/posts/protein-ranking/" class="popular-card">
+      <div class="popular-rank">4</div>
+      <div class="popular-content">
+        <div class="popular-tag">💊 健康</div>
+        <div class="popular-title">女性向けプロテインおすすめランキングTOP10｜ダイエット・美容に</div>
+      </div>
+    </a>
+    <a href="/posts/poikatsu-guide/" class="popular-card">
+      <div class="popular-rank">5</div>
+      <div class="popular-content">
+        <div class="popular-tag">💰 節約</div>
+        <div class="popular-title">ポイ活初心者完全ガイド｜月1万円稼げるおすすめサイト</div>
+      </div>
+    </a>
+  </div>
+</section>
+
 {{/* このサイトの特徴 */}}
 <div class="site-features">
   <div class="feature-item">
@@ -182,6 +224,88 @@
 }
 .sp-only {
   display: none;
+}
+
+/* ===== 人気記事ウィジェット ===== */
+.popular-articles-widget {
+  margin: 0 0 36px 0;
+  padding: 24px 22px;
+  background: linear-gradient(135deg, #fff8fa 0%, #fef5f7 100%);
+  border-radius: 16px;
+  border: 1px solid #f5d5dc;
+}
+.popular-articles-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #c0392b;
+  margin: 0 0 18px 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.popular-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.popular-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #fce4ea;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.popular-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 14px rgba(232, 99, 122, 0.18);
+  border-color: #e8637a;
+}
+.popular-rank {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e8637a, #c0392b);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+}
+.popular-card:nth-child(1) .popular-rank { background: linear-gradient(135deg, #f1c40f, #e67e22); }
+.popular-card:nth-child(2) .popular-rank { background: linear-gradient(135deg, #bdc3c7, #7f8c8d); }
+.popular-card:nth-child(3) .popular-rank { background: linear-gradient(135deg, #d9a066, #a0522d); }
+.popular-content {
+  flex: 1;
+  min-width: 0;
+}
+.popular-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #e8637a;
+  background: #fce4ec;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 4px;
+}
+.popular-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .popular-articles-widget { padding: 18px 14px; }
+  .popular-articles-title { font-size: 1.1rem; }
+  .popular-rank { width: 30px; height: 30px; font-size: 1rem; }
+  .popular-title { font-size: 0.85rem; }
 }
 
 @media (max-width: 600px) {

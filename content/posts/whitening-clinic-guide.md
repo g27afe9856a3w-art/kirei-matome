@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["ホワイトニング", "歯のホワイトニング", "歯科", "美白"]
 description: "2026年最新！歯のホワイトニングおすすめクリニック5選を徹底比較。歯科・セルフ・ホームホワイトニングの違いや料金相場もわかりやすく解説します。"
 cover:
-  image: "/images/eyecatch/eyecatch-biyou.jpeg"
+  image: "/images/eyecatch/ogp-whitening.jpeg"
   alt: "ホワイトニングクリニック比較"
 ---
 

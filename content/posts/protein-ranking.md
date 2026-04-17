@@ -6,7 +6,7 @@ categories: ["kenko"]
 tags: ["プロテイン", "女性プロテイン", "ダイエット", "筋トレ"]
 description: "女性向けプロテインのおすすめランキング10選。ダイエット・美容・筋トレ目的別に厳選。味・コスパ・成分を徹底比較します。"
 cover:
-  image: "/images/eyecatch/eyecatch-kenko.jpeg"
+  image: "/images/eyecatch/ogp-protein.jpeg"
   alt: "女性向けプロテインおすすめランキング"
 ---
 

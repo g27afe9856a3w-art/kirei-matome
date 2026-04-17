@@ -6,7 +6,7 @@ categories: ["okane"]
 tags: ["クレジットカード", "ポイント", "節約", "美容"]
 description: "美容・脱毛費用をお得にするクレジットカード5選。ポイント還元率・特典を比較して、美容費の節約に役立てましょう。"
 cover:
-  image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=630&fit=crop&crop=center&q=80"
+  image: "/images/eyecatch/ogp-creditcard.jpeg"
   alt: "美容費節約クレジットカード比較"
   caption: "Photo by [Avery Evans](https://unsplash.com/@averye457) on [Unsplash](https://unsplash.com)"
 ---

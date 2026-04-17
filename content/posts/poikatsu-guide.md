@@ -6,7 +6,7 @@ categories: ["okane"]
 tags: ["ポイ活", "節約", "副業", "ポイントサイト"]
 description: "ポイ活で月1万円稼ぐ方法を初心者向けに解説。おすすめのポイントサイト・効率的な稼ぎ方を紹介します。"
 cover:
-  image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=630&fit=crop&crop=center&q=80"
+  image: "/images/eyecatch/ogp-creditcard.jpeg"
   alt: "ポイ活で月1万円稼ぐ方法"
   caption: "Photo by [Green Chameleon](https://unsplash.com/@craftedbygc) on [Unsplash](https://unsplash.com)"
 ---

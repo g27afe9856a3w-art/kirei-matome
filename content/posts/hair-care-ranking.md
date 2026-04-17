@@ -6,7 +6,7 @@ categories: ["biyou"]
 tags: ["ヘアケア", "シャンプー", "育毛剤", "トリートメント"]
 description: "ヘアケアのおすすめランキング10選。シャンプー・トリートメント・育毛剤をドラッグストア〜サロン品まで徹底比較。"
 cover:
-  image: "/images/eyecatch/eyecatch-biyou.jpeg"
+  image: "/images/eyecatch/ogp-haircare.jpeg"
   alt: "ヘアケアおすすめランキング"
 ---
 
