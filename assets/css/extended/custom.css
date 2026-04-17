@@ -1210,3 +1210,116 @@ details.accordion .accordion-body {
   transform: translateY(-3px) !important;
   box-shadow: var(--shadow-lg) !important;
 }
+
+/* ==========================================================================
+   結論ファーストブロック（libeblog戦略）
+   ========================================================================== */
+.box-conclusion {
+  position: relative;
+  margin: 2em 0;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.15);
+}
+.box-conclusion .conclusion-label {
+  display: inline-block;
+  padding: 0.25em 1em;
+  background: #ff6b35;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  margin-bottom: 0.75em;
+  letter-spacing: 0.05em;
+}
+.box-conclusion .conclusion-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.6em;
+  line-height: 1.5;
+}
+.box-conclusion .conclusion-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}
+.box-conclusion .conclusion-body p:last-child { margin-bottom: 0; }
+.box-conclusion .conclusion-body strong {
+  color: #d84315;
+  background: linear-gradient(transparent 60%, #ffe082 60%);
+  padding: 0 2px;
+}
+
+/* ==========================================================================
+   ベネフィット訴求ブロック
+   ========================================================================== */
+.box-benefit {
+  margin: 2em 0;
+  padding: 1.3em 1.5em;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(233, 30, 99, 0.12);
+}
+.box-benefit .benefit-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #ad1457;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px dashed rgba(173, 20, 87, 0.3);
+}
+.box-benefit .benefit-body {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: #4a148c;
+}
+.box-benefit .benefit-body ul {
+  margin: 0.3em 0 0.3em 1.2em;
+  padding: 0;
+}
+.box-benefit .benefit-body li {
+  margin-bottom: 0.35em;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5em;
+}
+.box-benefit .benefit-body li::before {
+  content: "💖";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ==========================================================================
+   トップページ homeInfo の強化
+   ========================================================================== */
+.home-info-content {
+  font-size: 1.02rem !important;
+  line-height: 1.9 !important;
+}
+.home-info-content a {
+  display: inline-block;
+  margin: 0.15em 0.25em;
+  padding: 0.35em 0.9em;
+  background: #ff6b9d;
+  color: #fff !important;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.home-info-content a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 107, 157, 0.35);
+  background: #e91e63;
+}
+
+@media (max-width: 600px) {
+  .box-conclusion { padding: 1.2em 1em; }
+  .box-conclusion .conclusion-title { font-size: 1.05rem; }
+  .box-benefit { padding: 1.1em 1em; }
+}

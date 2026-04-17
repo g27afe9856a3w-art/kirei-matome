@@ -1,0 +1,5 @@
+<div class="box-conclusion">
+  <div class="conclusion-label">結論</div>
+  <div class="conclusion-title">{{ .Get "title" | default "この記事の結論" }}</div>
+  <div class="conclusion-body">{{ .Inner | markdownify }}</div>
+</div>

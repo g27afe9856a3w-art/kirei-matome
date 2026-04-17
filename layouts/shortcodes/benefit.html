@@ -1,0 +1,4 @@
+<div class="box-benefit">
+  <div class="benefit-title">✨ {{ .Get "title" | default "この記事を読むとどうなる？" }}</div>
+  <div class="benefit-body">{{ .Inner | markdownify }}</div>
+</div>
