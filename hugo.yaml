@@ -3,6 +3,7 @@ languageCode: "ja"
 title: "キレイまとめ｜脱毛・美容医療・健康の比較サイト"
 theme: "PaperMod"
 paginate: 10
+timeZone: "Asia/Tokyo"
 
 enableRobotsTXT: true
 
