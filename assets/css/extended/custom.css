@@ -1392,3 +1392,147 @@ details.accordion .accordion-body {
 .pillar-card-icon { font-size: 1.8rem; margin-bottom: 0.3em; }
 .pillar-card-title { font-weight: 700; font-size: 1rem; margin-bottom: 0.3em; color: #333; }
 .pillar-card-desc { font-size: 0.85rem; color: #666; line-height: 1.6; }
+
+/* =====================================================
+   libeblog 参考：マガジン風 2カラムグリッド記事一覧
+   ===================================================== */
+/* 記事リストコンテナを grid 化（PaperMod の .main > .first-entry + .post-entry 連続） */
+main.main {
+  max-width: 1100px;
+}
+
+/* 2個目以降の記事を 2カラムグリッドに */
+@media (min-width: 768px) {
+  .first-entry ~ .post-entry {
+    float: left;
+    width: calc(50% - 8px);
+    margin-right: 16px;
+    clear: none;
+  }
+  .first-entry ~ .post-entry:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .first-entry ~ .post-entry:nth-of-type(2n+1) {
+    clear: left;
+  }
+  /* Paginator/footer の clear */
+  .main .page-footer,
+  footer.footer,
+  .paginator,
+  .pagination {
+    clear: both;
+  }
+}
+
+/* カードを libeblog 風に刷新：白背景・余白広め・カテゴリバッジ */
+.post-entry {
+  background: #ffffff !important;
+  border: 1px solid #eef0f3 !important;
+  border-radius: 14px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+  margin-bottom: 20px !important;
+}
+.post-entry:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 24px rgba(232, 99, 122, 0.12) !important;
+  border-color: #f7c3cd !important;
+}
+
+/* サムネイル：16:9 固定 */
+.post-entry .entry-cover {
+  margin: 0 !important;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0 !important;
+}
+.post-entry .entry-cover img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 0 !important;
+  transition: transform 0.45s ease;
+}
+
+/* カード中身の padding */
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+.post-entry .entry-header {
+  padding-top: 16px !important;
+}
+.post-entry .entry-footer {
+  padding-bottom: 14px !important;
+  font-size: 0.78rem !important;
+  color: #9aa0a6 !important;
+}
+
+/* タイトル */
+.post-entry .entry-header h2 {
+  font-size: 1.02rem !important;
+  font-weight: 800 !important;
+  line-height: 1.55 !important;
+  color: #2c2c2c !important;
+  margin: 0 0 8px 0 !important;
+}
+
+/* 本文プレビュー（短く） */
+.post-entry .entry-content {
+  font-size: 0.85rem !important;
+  color: #666 !important;
+  line-height: 1.65 !important;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-top: 0 !important;
+  padding-bottom: 6px !important;
+}
+
+/* 1個目の記事を大型ヒーロー化 */
+.first-entry {
+  border-radius: 16px !important;
+  background: #fff !important;
+  border: 1px solid #f0d8dd !important;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(232,99,122,0.08) !important;
+  margin-bottom: 28px !important;
+}
+.first-entry .entry-cover {
+  aspect-ratio: 16 / 9;
+  margin: 0 !important;
+}
+.first-entry .entry-cover img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.first-entry .entry-header h1 {
+  font-size: 1.45rem !important;
+  font-weight: 900 !important;
+  line-height: 1.5 !important;
+  padding: 20px 24px 6px !important;
+  margin: 0 !important;
+}
+.first-entry .entry-content {
+  padding: 0 24px 10px !important;
+  font-size: 0.92rem !important;
+  color: #555 !important;
+}
+.first-entry .entry-footer {
+  padding: 0 24px 22px !important;
+}
+
+/* SP: 1カラムに戻す */
+@media (max-width: 767px) {
+  .first-entry ~ .post-entry {
+    width: 100%;
+    margin-right: 0;
+  }
+  .first-entry .entry-header h1 { font-size: 1.2rem !important; }
+}
