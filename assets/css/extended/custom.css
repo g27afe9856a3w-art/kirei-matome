@@ -1536,3 +1536,215 @@ main.main {
   }
   .first-entry .entry-header h1 { font-size: 1.2rem !important; }
 }
+
+/* =====================================================
+   Claude Design 参考：warm cream + coral/teal パレット
+   （既存ピンク基調をオーバーライド）
+   ===================================================== */
+:root {
+  --bg: #FBF7F0;
+  --bg-alt: #FFFFFF;
+  --bg-sunken: #F3ECDF;
+  --ink: #2A2420;
+  --ink-soft: #5C524B;
+  --ink-muted: #8A7F76;
+  --line: #E8DFCF;
+  --line-soft: #F0E8D8;
+  --accent: #E85A4F;
+  --accent-ink: #C43B30;
+  --accent-soft: #FCE6E3;
+  --accent-2: #2B8A8E;
+  --accent-2-soft: #DCEEEE;
+  --accent-3: #E8B339;
+  --accent-3-soft: #FAEFD0;
+  --font-maru: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "ヒラギノ丸ゴ ProN", "M PLUS Rounded 1c", system-ui, sans-serif;
+}
+
+/* 全体トーン */
+body {
+  background: var(--bg) !important;
+  color: var(--ink) !important;
+}
+body, .post-content, .entry-content {
+  font-family: "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
+}
+/* 見出しは丸ゴシック */
+h1, h2, h3, h4, h5, h6,
+.post-title, .entry-header h2, .section-title {
+  font-family: var(--font-maru);
+  letter-spacing: 0.01em;
+}
+
+/* 記事カードを warm cream 化 */
+.post-entry {
+  background: #FFFFFF !important;
+  border-color: var(--line-soft) !important;
+  box-shadow: 0 1px 2px rgba(60,40,20,0.04) !important;
+}
+.post-entry:hover {
+  box-shadow: 0 12px 32px rgba(60,40,20,0.08) !important;
+  border-color: var(--line) !important;
+}
+.post-entry .entry-header h2 {
+  color: var(--ink) !important;
+}
+.post-entry:hover .entry-header h2 {
+  color: var(--accent-ink) !important;
+}
+.post-entry .entry-content { color: var(--ink-soft) !important; }
+.post-entry .entry-footer { color: var(--ink-muted) !important; }
+
+/* first-entry のヒーロー表示を coral soft に */
+.first-entry {
+  background: linear-gradient(135deg, var(--accent-soft) 0%, var(--accent-3-soft) 100%) !important;
+  border-color: var(--line) !important;
+  box-shadow: 0 4px 20px rgba(60,40,20,0.06) !important;
+}
+.first-entry .entry-header h1 { color: var(--ink) !important; }
+
+/* =====================================================
+   ヒーロー刷新：warm cream gradient + ロゴマーク
+   ===================================================== */
+.hero-catchcopy {
+  background: linear-gradient(135deg, var(--accent-soft) 0%, var(--accent-3-soft) 100%) !important;
+  border-color: var(--line) !important;
+  border-radius: 28px !important;
+  padding: 44px 40px !important;
+  position: relative;
+  overflow: hidden;
+}
+.hero-catchcopy::before {
+  content: "";
+  position: absolute;
+  right: -60px; top: -40px;
+  width: 220px; height: 220px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  pointer-events: none;
+}
+.hero-catchcopy::after {
+  content: "";
+  position: absolute;
+  right: 80px; bottom: -30px;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: rgba(232, 179, 57, 0.25);
+  pointer-events: none;
+}
+.hero-catch-inner { position: relative; z-index: 1; }
+.hero-tagline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-maru);
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: var(--accent-ink) !important;
+  background: white;
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 16px !important;
+  letter-spacing: 0.08em;
+  text-transform: none !important;
+}
+.hero-headline {
+  font-family: var(--font-maru) !important;
+  color: var(--ink) !important;
+  font-size: 1.9rem !important;
+  font-weight: 900 !important;
+  line-height: 1.35 !important;
+}
+.hero-headline strong {
+  color: var(--accent-ink) !important;
+  background: none !important;
+  position: relative;
+  display: inline-block;
+  padding: 0 !important;
+}
+.hero-headline strong::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 3px;
+  height: 12px;
+  background: rgba(232, 179, 57, 0.45);
+  z-index: -1;
+}
+.hero-subtext {
+  color: var(--ink-soft) !important;
+  font-size: 0.95rem !important;
+}
+.hero-cta-btn.btn-pink {
+  background: var(--accent) !important;
+  color: white !important;
+  box-shadow: 0 3px 0 var(--accent-ink) !important;
+}
+.hero-cta-btn.btn-pink:hover {
+  background: var(--accent-ink) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 0 var(--accent-ink) !important;
+}
+.hero-cta-btn.btn-outline {
+  background: white !important;
+  color: var(--accent-ink) !important;
+  border-color: var(--accent) !important;
+}
+.hero-cta-btn.btn-outline:hover {
+  background: var(--accent) !important;
+  color: white !important;
+}
+
+/* カテゴリナビ：クリームカード風 */
+.cat-card {
+  background: var(--bg-alt) !important;
+  border: 1px solid var(--line-soft) !important;
+  box-shadow: 0 1px 2px rgba(60,40,20,0.04) !important;
+  color: var(--ink) !important;
+}
+.cat-card:hover {
+  border-color: var(--accent) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(232,90,79,0.15) !important;
+}
+
+/* 人気記事ウィジェット：warm cream 基調 */
+.popular-articles-widget {
+  background: linear-gradient(135deg, #FDF9F1 0%, #FCF3E8 100%) !important;
+  border-color: var(--line) !important;
+}
+.popular-articles-title {
+  color: var(--accent-ink) !important;
+  font-family: var(--font-maru) !important;
+}
+.popular-card {
+  background: var(--bg-alt) !important;
+  border-color: var(--line-soft) !important;
+}
+.popular-card:hover {
+  border-color: var(--accent) !important;
+  box-shadow: 0 4px 14px rgba(232,90,79,0.18) !important;
+}
+.popular-rank {
+  background: var(--accent) !important;
+  box-shadow: 0 2px 0 var(--accent-ink) !important;
+  transform: rotate(-4deg);
+}
+.popular-card:nth-child(1) .popular-rank { background: #D4A017 !important; box-shadow: 0 2px 0 #9E7514 !important; }
+.popular-card:nth-child(2) .popular-rank { background: #9FA8B5 !important; box-shadow: 0 2px 0 #6E7785 !important; }
+.popular-card:nth-child(3) .popular-rank { background: #B4743A !important; box-shadow: 0 2px 0 #7D4E20 !important; }
+.popular-tag {
+  background: var(--accent-soft) !important;
+  color: var(--accent-ink) !important;
+  font-family: var(--font-maru);
+}
+.popular-title {
+  color: var(--ink) !important;
+  font-family: var(--font-maru);
+}
+
+/* site features も warm cream 化 */
+.feature-item {
+  background: var(--bg-alt) !important;
+  border-color: var(--line-soft) !important;
+  box-shadow: 0 1px 2px rgba(60,40,20,0.04) !important;
+}
+.feature-text { color: var(--ink-soft) !important; }
