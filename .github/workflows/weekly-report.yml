@@ -1,0 +1,71 @@
+name: Weekly Report
+
+on:
+  schedule:
+    # 毎週月曜 9:00 JST = 00:00 UTC
+    - cron: "0 0 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Write service account credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > /tmp/gcp-sa.json
+
+      - name: Run weekly report
+        id: report
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcp-sa.json
+          GA_PROPERTY_ID: ${{ secrets.GA_PROPERTY_ID }}
+          SC_SITE_URL: ${{ secrets.SC_SITE_URL }}
+        run: python scripts/weekly_report.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "chore(report): weekly report $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open notification issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const reportsDir = 'reports';
+            const files = fs.readdirSync(reportsDir)
+              .filter(f => f.endsWith('-weekly.md'))
+              .sort().reverse();
+            if (files.length === 0) { core.info('no report'); return; }
+            const latest = files[0];
+            const body = fs.readFileSync(path.join(reportsDir, latest), 'utf8');
+            const today = latest.replace('-weekly.md', '');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📊 週次レポート ${today} — リライト/新規記事候補`,
+              body: body + '\n\n---\n\n**👉 Claude Code を起動してこのIssue本文を渡すと、リライト/新規記事の下書きが始められます。**',
+              labels: ['weekly-report']
+            });
