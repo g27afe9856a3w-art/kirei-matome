@@ -48,6 +48,9 @@ ARTICLES = {
     "credit-card-beauty-ranking":("bg-okane.jpeg",     "美容クレカ\nおすすめTOP5",    "美容特典つき",               "#e8637a"),
     "student-credit-card-ranking":("bg-okane.jpeg",    "学生クレカ\nおすすめTOP5",    "年会費無料で高還元",         "#c0392b"),
     "poikatsu-guide":            ("bg-okane.jpeg",     "ポイ活\n完全ガイド",          "月1万円稼ぐ方法",            "#c0392b"),
+
+    # 季節・UV
+    "summer-uv-care":            ("bg-uv-care.jpeg",   "紫外線対策\n完全ガイド2026",   "日焼け止め×サプリ×UVグッズ", "#e67e22"),
 }
 
 def generate(slug, bg, main, sub, accent):
