@@ -1,0 +1,54 @@
+# アフィリエイトリンク管理ファイル
+# A8.net などで提携承認が下りた広告主のリンクをここに記録し、
+# Hugo テンプレートから参照できるようにする。
+# 未提携・審査中は url: "" のまま。
+
+clinics:
+  rize:
+    name: "リゼクリニック"
+    status: "pending"   # pending / approved / rejected
+    url: ""
+    provider: "a8"
+    notes: "顔脱毛5回 81,600円"
+
+  eminal:
+    name: "エミナルクリニック"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    notes: "顔脱毛5回 71,500円"
+
+  regina:
+    name: "レジーナクリニック"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    notes: "顔脱毛5回 105,000円・麻酔無料"
+
+  tcb:
+    name: "TCB東京中央美容外科"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    notes: "顔脱毛5回 98,000円・全国100院"
+
+  freia:
+    name: "フレイアクリニック"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    notes: "顔脱毛5回 99,000円・麻酔無料"
+
+# 日焼け止め等の物販は Amazon/楽天（もしもアフィリエイト経由）を想定
+products:
+  anessa:
+    name: "アネッサ パーフェクトUV スキンケアミルク"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+
+  biore_uv:
+    name: "ビオレ UV アクアリッチ"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
