@@ -52,6 +52,7 @@ ARTICLES = {
     # 季節・UV
     "summer-uv-care":            ("bg-uv-care.jpeg",   "紫外線対策\n完全ガイド2026",   "日焼け止め×サプリ×UVグッズ", "#e67e22"),
     "face-datsumo-guide":        ("bg-beauty.jpeg",    "顔脱毛\nおすすめTOP5",        "産毛もツルツル美肌に",       "#e8637a"),
+    "medical-diet-clinic":       ("bg-medical-diet.jpeg", "医療ダイエット\nクリニックTOP5", "GLP-1・脂肪溶解を比較",   "#2b8a8e"),
 }
 
 def generate(slug, bg, main, sub, accent):
