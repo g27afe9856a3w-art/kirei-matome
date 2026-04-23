@@ -1,0 +1,6 @@
+# ページネーション page/1/ を親ページにリダイレクト
+/page/1/           /                301
+/posts/page/1/     /posts/          301
+/ranking/page/1/   /ranking/        301
+/categories/*/page/1/  /categories/:splat/  301
+/tags/*/page/1/    /tags/:splat/    301
