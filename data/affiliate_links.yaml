@@ -1,54 +1,143 @@
 # アフィリエイトリンク管理ファイル
-# A8.net などで提携承認が下りた広告主のリンクをここに記録し、
-# Hugo テンプレートから参照できるようにする。
-# 未提携・審査中は url: "" のまま。
+# status: pending=未申請 / applying=申請中 / approved=承認済 / rejected=却下
+# provider: a8 / moshimo / rakuten / amazon / valuecommerce
 
+# =============================
+# 脱毛クリニック（A8申請中）
+# =============================
 clinics:
   rize:
     name: "リゼクリニック"
-    status: "pending"   # pending / approved / rejected
+    status: "applying"
     url: ""
     provider: "a8"
-    notes: "顔脱毛5回 81,600円"
+    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
 
   eminal:
     name: "エミナルクリニック"
-    status: "pending"
+    status: "applying"
     url: ""
     provider: "a8"
-    notes: "顔脱毛5回 71,500円"
+    articles: ["face-datsumo-guide", "datsumo-clinic-ranking", "datsumo-student-guide"]
 
   regina:
     name: "レジーナクリニック"
-    status: "pending"
+    status: "applying"
     url: ""
     provider: "a8"
-    notes: "顔脱毛5回 105,000円・麻酔無料"
+    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
 
   tcb:
     name: "TCB東京中央美容外科"
-    status: "pending"
+    status: "applying"
     url: ""
     provider: "a8"
-    notes: "顔脱毛5回 98,000円・全国100院"
+    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
 
   freia:
     name: "フレイアクリニック"
+    status: "applying"
+    url: ""
+    provider: "a8"
+    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
+
+# =============================
+# ホワイトニング（A8で検索・申請推奨）
+# =============================
+whitening:
+  whitening_bar:
+    name: "ホワイトニングバー"
     status: "pending"
     url: ""
     provider: "a8"
-    notes: "顔脱毛5回 99,000円・麻酔無料"
+    articles: ["whitening-clinic-guide"]
 
-# 日焼け止め等の物販は Amazon/楽天（もしもアフィリエイト経由）を想定
-products:
-  anessa:
-    name: "アネッサ パーフェクトUV スキンケアミルク"
+  white_essence:
+    name: "ホワイトエッセンス"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    articles: ["whitening-clinic-guide"]
+
+# =============================
+# クレジットカード（A8で申請推奨）
+# =============================
+credit_cards:
+  rakuten_card:
+    name: "楽天カード"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    articles: ["credit-card-beauty-ranking", "credit-card-cashback"]
+
+  paypay_card:
+    name: "PayPayカード"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    articles: ["credit-card-beauty-ranking"]
+
+  smbc_nl:
+    name: "三井住友カード（NL）"
+    status: "pending"
+    url: ""
+    provider: "a8"
+    articles: ["credit-card-beauty-ranking", "student-credit-card-ranking"]
+
+# =============================
+# 物販サプリ（もしもアフィリエイト推奨）
+# Amazon/楽天の商品リンク
+# =============================
+supplements:
+  dhc_collagen:
+    name: "DHCコラーゲン"
     status: "pending"
     url: ""
     provider: "moshimo"
+    articles: ["collagen-supplement-ranking"]
+
+  fancl_collagen:
+    name: "FANCLコラーゲン"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+    articles: ["collagen-supplement-ranking"]
+
+  heliocare:
+    name: "ヘリオケア（Heliocare）"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+    articles: ["whitening-supplement-ranking"]
+
+  transino:
+    name: "TRANSINO（トランシーノ）"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+    articles: ["whitening-supplement-ranking"]
+
+# =============================
+# 日焼け止め物販（もしもアフィリエイト推奨）
+# =============================
+uv_products:
+  anessa:
+    name: "アネッサ パーフェクトUV"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+    articles: ["summer-uv-care"]
 
   biore_uv:
     name: "ビオレ UV アクアリッチ"
     status: "pending"
     url: ""
     provider: "moshimo"
+    articles: ["summer-uv-care"]
+
+  laroche:
+    name: "ラ ロッシュ ポゼ UVイデア"
+    status: "pending"
+    url: ""
+    provider: "moshimo"
+    articles: ["summer-uv-care"]
