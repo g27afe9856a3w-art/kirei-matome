@@ -190,9 +190,9 @@ cover:
 
 顔脱毛は「毛をなくす」だけでなく「素肌の見え方を変える」施術です。2026年の美容投資として、高リターンが期待できる選択肢のひとつと言えます。
 
-{{< cta title="関連記事もチェック" >}}
+**関連記事もチェック**
+
 - [脱毛サロンvs脱毛クリニック完全比較]({{< ref "posts/datsumo-salon-vs-clinic.md" >}})
 - [脱毛クリニックおすすめランキングTOP5]({{< ref "posts/datsumo-clinic-ranking.md" >}})
 - [脱毛の料金相場ガイド]({{< ref "posts/datsumo-price-guide.md" >}})
 - [VIO脱毛完全ガイド]({{< ref "posts/vio-datsumo-guide.md" >}})
-{{< /cta >}}
