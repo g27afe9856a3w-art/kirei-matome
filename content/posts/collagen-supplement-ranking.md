@@ -51,7 +51,7 @@ cover:
 | こんな人に | まず試してみたい・コスパ重視 |
 {{< /ranking >}}
 
-{{< cta url="#" text="DHCコラーゲンを公式サイトで確認" sub="初回限定割引あり" >}}
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDHC%2520%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25B3%2F" text="DHCコラーゲンを楽天市場で見る" sub="圧倒的コスパ・リピーター多数" >}}
 
 {{< ranking num="2" name="FANCLコラーゲン｜添加物ゼロで敏感肌も安心" >}}
 | 項目 | 内容 |
@@ -62,6 +62,8 @@ cover:
 | こんな人に | 肌が敏感・品質重視 |
 {{< /ranking >}}
 
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FFANCL%2520%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25B3%2F" text="FANCLコラーゲンを楽天市場で見る" sub="無添加・敏感肌にも安心" >}}
+
 {{< ranking num="3" name="資生堂 ザ・コラーゲン｜老舗ブランドの安心感" >}}
 | 項目 | 内容 |
 |------|------|
@@ -70,12 +72,16 @@ cover:
 | 特徴 | 長年の実績・飲みやすい |
 {{< /ranking >}}
 
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E8%25B3%2587%25E7%2594%259F%25E5%25A0%2582%2520%25E3%2582%25B6%25E3%2583%25BB%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25B3%2F" text="資生堂 ザ・コラーゲンを楽天市場で見る" sub="老舗ブランドの品質・飲みやすいドリンクタイプも" >}}
+
 {{< ranking num="4" name="明治 ザバスコラーゲン｜スポーツ後の美肌ケアに" >}}
 | 項目 | 内容 |
 |------|------|
 | 価格 | **約1,500円/月** |
 | 特徴 | コラーゲン＋美容成分バランスが◎ |
 {{< /ranking >}}
+
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E6%2598%258E%25E6%25B2%25BB%2520%25E3%2582%25B6%25E3%2583%2590%25E3%2582%25B9%2520%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25B3%2F" text="明治ザバスコラーゲンを楽天市場で見る" sub="スポーツ後の美肌ケアにおすすめ" >}}
 
 {{< ranking num="5" name="オリヒロ コラーゲンパウダー｜飲み物に混ぜるだけ" >}}
 | 項目 | 内容 |
@@ -84,6 +90,8 @@ cover:
 | タイプ | パウダー |
 | 特徴 | 味がなく何にでも混ぜられる |
 {{< /ranking >}}
+
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25AA%25E3%2583%25AA%25E3%2583%2592%25E3%2583%25AD%2520%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25B3%2520%25E3%2583%2591%25E3%2582%25A6%25E3%2583%2580%25E3%2583%25BC%2F" text="オリヒロ コラーゲンパウダーを楽天市場で見る" sub="何にでも混ぜられるパウダータイプ" >}}
 
 ---
 

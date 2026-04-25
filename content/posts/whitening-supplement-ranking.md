@@ -50,7 +50,7 @@ cover:
 | こんな人に | 本格的なUVケアをしたい・海外旅行が多い |
 {{< /ranking >}}
 
-{{< cta url="#" text="ヘリオケアを公式サイトで確認する" sub="皮膚科医も注目の成分" >}}
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2598%25E3%2583%25AA%25E3%2582%25AA%25E3%2582%25B1%25E3%2582%25A2%2520Heliocare%2520%25E3%2582%25B5%25E3%2583%2597%25E3%2583%25AA%2F" text="ヘリオケアを楽天市場で見る" sub="皮膚科医も注目の本格UVケアサプリ" >}}
 
 {{< ranking num="2" name="TRANSINO（トランシーノ）｜シミ・そばかすに第一類医薬品" >}}
 | 項目 | 内容 |
@@ -61,6 +61,8 @@ cover:
 | こんな人に | シミ・そばかすが気になる方 |
 {{< /ranking >}}
 
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2588%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25BC%25E3%2583%258E%2520%25E7%25BE%258E%25E7%2599%25BD%2520%25E3%2582%25B5%25E3%2583%2597%25E3%2583%25AA%2F" text="トランシーノを楽天市場で見る" sub="シミ・そばかすに第一類医薬品" >}}
+
 {{< ranking num="3" name="ビタミンC（DHC）｜美白の基本・コスパ最強" >}}
 | 項目 | 内容 |
 |------|------|
@@ -70,6 +72,8 @@ cover:
 | こんな人に | まずコスパよく美白ケアを始めたい |
 {{< /ranking >}}
 
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDHC%2520%25E3%2583%2593%25E3%2582%25BF%25E3%2583%259F%25E3%2583%25B3C%2F" text="DHC ビタミンCを楽天市場で見る" sub="コスパ最強・美白の基本サプリ" >}}
+
 {{< ranking num="4" name="シナールL（武田コンシューマーヘルスケア）｜医薬品で確かな効果" >}}
 | 項目 | 内容 |
 |------|------|
@@ -77,6 +81,8 @@ cover:
 | 主成分 | ビタミンC・パントテン酸 |
 | 特徴 | 医薬品・シミ対策に長年の実績 |
 {{< /ranking >}}
+
+{{< cta url="https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id=27059&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B7%25E3%2583%258A%25E3%2583%25BC%25E3%2583%25AB%2520%25E3%2583%2593%25E3%2582%25BF%25E3%2583%259F%25E3%2583%25B3C%2F" text="シナールLを楽天市場で見る" sub="医薬品で確かな美白効果" >}}
 
 {{< ranking num="5" name="ルミナレア｜プラセンタ配合で総合美容" >}}
 | 項目 | 内容 |
