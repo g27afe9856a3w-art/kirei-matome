@@ -297,8 +297,6 @@ cover:
 
 ---
 
-{{< cta url="#" text="BOTANISTシャンプーを公式サイトで確認する" sub="人気No.1ボタニカルシャンプー・定期で15%OFF" >}}
-
 {{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1N9L+DCGTYQ+33NQ+63H8I" text="haru kurokamiを公式サイトで確認する" sub="全成分植物由来・全額返金保証あり" >}}
 
 ---

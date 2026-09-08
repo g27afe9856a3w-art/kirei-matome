@@ -97,7 +97,6 @@ cover:
 
 医療用レーザーを使用するため、**効果が高く少ない通院回数で完結**できます。VIOや顔の脱毛にも対応しており、全身すっきりしたい方に最適です。
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+8XI3G2+2FM6+60WN6" text="RinRin脱毛サロンの公式サイトを見る" sub="全国54店舗・全身脱毛が人気" >}}
 {{< /ranking >}}
 
 {{< ranking num="2" name="湘南美容クリニック｜全国120院以上・リーズナブルな料金" >}}
@@ -113,7 +112,6 @@ cover:
 
 メンズ向けの脱毛プランも充実しており、ひげ脱毛や全身脱毛まで幅広く対応しています。
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+929KAA+4MJA+5YRHE" text="ルシアクリニックの公式サイトを見る" sub="医療脱毛・全身5回月額定額プラン" >}}
 {{< /ranking >}}
 
 {{< ranking num="3" name="メンズエミナルクリニック｜月額制で低コスト・継続しやすい" >}}
@@ -129,7 +127,6 @@ cover:
 
 途中解約もできるため、「まずは試してみたい」という方にもぴったりです。
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+8ZVTV6+3W7I+HVFKY" text="Dioneの全身脱毛を見る" sub="敏感肌専門・体験実施中" >}}
 {{< /ranking >}}
 
 {{< ranking num="4" name="ゴリラクリニック｜男性特化・VIO込み全身脱毛が人気" >}}
@@ -145,7 +142,6 @@ cover:
 
 明朗会計で追加料金が発生しない点も、多くの利用者から支持されています。
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+8YOYNM+24LS+BWVTE" text="シロノクリニックの全身脱毛を見る" sub="定額制の新プラン登場" >}}
 {{< /ranking >}}
 
 {{< ranking num="5" name="メンズキレイモ｜痛みが少ない光脱毛で快適" >}}
@@ -161,7 +157,6 @@ cover:
 
 女性向けキレイモのノウハウを活かしたメンズ専用サービスで、清潔感のある空間での施術が評判です。
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+8Y3J1U+2NSW+BYT9E" text="カルミア美肌クリニックを見る" sub="92.4%の女性が満足・医療脱毛" >}}
 {{< /ranking >}}
 
 ---
