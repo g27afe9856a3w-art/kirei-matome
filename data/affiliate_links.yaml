@@ -1,143 +1,166 @@
 # アフィリエイトリンク管理ファイル
-# status: pending=未申請 / applying=申請中 / approved=承認済 / rejected=却下
+# 最終更新: 2026-09-11（記事の実態を反映して全面的に作り直し）
+#
+# status: live=記事に設置・遷移先確認済 / broken=リンクが壊れている
+#         removed=不適切なため削除済 / pending=未申請 / applying=申請中
 # provider: a8 / moshimo / rakuten / amazon / valuecommerce
+#
+# ※ 遷移先(verified_dest)は 2026-09-11 に実際にアクセスして確認した最終URL。
+#    リンクを差し替えたら必ず遷移先を確認し、この欄を更新すること。
 
 # =============================
-# 脱毛クリニック（A8申請中）
+# ✅ 稼働中（遷移先が正しいことを確認済み）
 # =============================
-clinics:
-  rize:
-    name: "リゼクリニック"
-    status: "applying"
-    url: ""
+live:
+  lucia:
+    name: "ルシアクリニック"
+    status: "live"
     provider: "a8"
-    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1K5K+929KAA+4MJA+5YRHE"
+    verified_dest: "https://lucia-c.com/datsumo_lp02/"
+    articles: ["20s-datsumo-guide", "datsumo-price-guide", "datsumo-salon-vs-clinic"]
 
-  eminal:
-    name: "エミナルクリニック"
-    status: "applying"
-    url: ""
+  rinrin:
+    name: "RinRin脱毛サロン"
+    status: "live"
     provider: "a8"
-    articles: ["face-datsumo-guide", "datsumo-clinic-ranking", "datsumo-student-guide"]
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1K5K+8XI3G2+2FM6+60WN6"
+    verified_dest: "https://happyrinrin.com/ad/all/"
+    articles: ["datsumo-price-guide", "datsumo-salon-vs-clinic"]
 
-  regina:
-    name: "レジーナクリニック"
-    status: "applying"
-    url: ""
+  epos:
+    name: "エポスカード"
+    status: "live"
     provider: "a8"
-    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1N9L+DBVECY+38L8+BY641"
+    verified_dest: "https://www.eposcard.co.jp/aflt/index2.html"
+    articles: ["credit-card-cashback", "student-credit-card-ranking"]
 
-  tcb:
-    name: "TCB東京中央美容外科"
-    status: "applying"
-    url: ""
+  haru_kurokami:
+    name: "haru kurokami スカルプ"
+    status: "live"
     provider: "a8"
-    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1N9L+DCGTYQ+33NQ+63H8I"
+    verified_dest: "https://www.haru-shop.jp/lp"
+    articles: ["hair-care-ranking"]
 
-  freia:
-    name: "フレイアクリニック"
-    status: "applying"
-    url: ""
+  hapitas:
+    name: "ハピタス"
+    status: "live"
     provider: "a8"
-    articles: ["face-datsumo-guide", "datsumo-clinic-ranking"]
-
-# =============================
-# ホワイトニング（A8で検索・申請推奨）
-# =============================
-whitening:
-  whitening_bar:
-    name: "ホワイトニングバー"
-    status: "pending"
-    url: ""
-    provider: "a8"
-    articles: ["whitening-clinic-guide"]
-
-  white_essence:
-    name: "ホワイトエッセンス"
-    status: "pending"
-    url: ""
-    provider: "a8"
-    articles: ["whitening-clinic-guide"]
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1N9L+DA33JM+1LP8+BY642"
+    verified_dest: "https://hapitas.jp/register/"
+    articles: ["poikatsu-guide"]
 
 # =============================
-# クレジットカード（A8で申請推奨）
+# 🔴 壊れているリンク（要・再発行）
 # =============================
-credit_cards:
-  rakuten_card:
-    name: "楽天カード"
-    status: "pending"
-    url: ""
-    provider: "a8"
-    articles: ["credit-card-beauty-ranking", "credit-card-cashback"]
-
-  paypay_card:
-    name: "PayPayカード"
-    status: "pending"
-    url: ""
-    provider: "a8"
-    articles: ["credit-card-beauty-ranking"]
-
-  smbc_nl:
-    name: "三井住友カード（NL）"
-    status: "pending"
-    url: ""
-    provider: "a8"
-    articles: ["credit-card-beauty-ranking", "student-credit-card-ranking"]
-
-# =============================
-# 物販サプリ（もしもアフィリエイト推奨）
-# Amazon/楽天の商品リンク
-# =============================
-supplements:
-  dhc_collagen:
-    name: "DHCコラーゲン"
-    status: "pending"
-    url: ""
+broken:
+  moshimo_rakuten_template:
+    name: "もしもアフィリエイト 楽天市場リンク（共通テンプレート）"
+    status: "broken"
     provider: "moshimo"
-    articles: ["collagen-supplement-ranking"]
-
-  fancl_collagen:
-    name: "FANCLコラーゲン"
-    status: "pending"
-    url: ""
-    provider: "moshimo"
-    articles: ["collagen-supplement-ranking"]
-
-  heliocare:
-    name: "ヘリオケア（Heliocare）"
-    status: "pending"
-    url: ""
-    provider: "moshimo"
-    articles: ["whitening-supplement-ranking"]
-
-  transino:
-    name: "TRANSINO（トランシーノ）"
-    status: "pending"
-    url: ""
-    provider: "moshimo"
-    articles: ["whitening-supplement-ranking"]
+    url: "https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id="
+    problem: |
+      商品IDにあたる pl_id= が空のままで、アクセスすると HTTP 404。
+      同一URLが16箇所にコピーされており、全て読者にエラーページを表示する。
+      もしもアフィリエイトの管理画面で商品ごとにリンクを再発行し、
+      下記の各商品に個別のURLを割り当てる必要がある。
+    used_in:
+      collagen-supplement-ranking: ["DHCコラーゲン", "FANCLコラーゲン", "資生堂 ザ・コラーゲン", "明治ザバスコラーゲン", "オリヒロ コラーゲンパウダー"]
+      summer-uv-care: ["アネッサ パーフェクトUV", "ビオレUV アクアリッチ", "ラロッシュポゼ UVイデア", "ALLIE クロノビューティ", "ニベアサン プロテクト", "ママバター UVケアクリーム", "オルビス サンスクリーン"]
+      whitening-supplement-ranking: ["ヘリオケア", "トランシーノ", "DHC ビタミンC", "シナールL"]
 
 # =============================
-# 日焼け止め物販（もしもアフィリエイト推奨）
+# ❌ 削除済み（記事から取り外したリンク）
 # =============================
-uv_products:
-  anessa:
-    name: "アネッサ パーフェクトUV"
-    status: "pending"
-    url: ""
-    provider: "moshimo"
-    articles: ["summer-uv-care"]
+removed:
+  aga_skin_clinic:
+    name: "AGAスキンクリニック（表示名）"
+    status: "removed"
+    provider: "a8"
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1K5K+8P60Z6+2CSS+5YJRM"
+    verified_dest: "https://ci-z.com/lpad/cavitation/"
+    reason: "ボタンにはAGAスキンクリニックと表示されるが、遷移先はキャビテーション（痩身）のLP。別広告主のため2026-09-11に削除。"
 
-  biore_uv:
-    name: "ビオレ UV アクアリッチ"
-    status: "pending"
-    url: ""
-    provider: "moshimo"
-    articles: ["summer-uv-care"]
+  myprotein:
+    name: "マイプロテイン（表示名）"
+    status: "removed"
+    provider: "a8"
+    url: "https://px.a8.net/svt/ejp?a8mat=4B1N9L+DB9YR6+45DI+5ZU29"
+    verified_dest: "https://coreda.jp/category/27"
+    reason: "ボタンにはマイプロテインと表示されるが、遷移先はCORE-DA（別のサプリ通販）。2026-09-11に削除。"
 
-  laroche:
-    name: "ラ ロッシュ ポゼ UVイデア"
-    status: "pending"
-    url: ""
+  shirono:
+    name: "シロノクリニック"
+    status: "removed"
+    provider: "a8"
+    reason: "順位で紹介しているクリニックと遷移先が食い違うため2026-09-08に削除。"
+
+  dione:
+    name: "Dione"
+    status: "removed"
+    provider: "a8"
+    reason: "順位で紹介しているクリニックと遷移先が食い違うため2026-09-08に削除。"
+
+  calmia:
+    name: "カルミア美肌クリニック"
+    status: "removed"
+    provider: "a8"
+    reason: "順位で紹介しているクリニックと遷移先が食い違うため2026-09-08に削除。"
+
+  misparis:
+    name: "ミス・パリ ダイエットセンター"
+    status: "removed"
+    provider: "a8"
+    reason: "サプリ記事にエステの広告が入っていたため2026-09-08に削除。"
+
+# =============================
+# 📝 これから申請するもの
+# 記事で実際に順位付けしているのに提携が無い広告主
+# =============================
+pending:
+  datsumo_clinics:
+    priority: "最優先"
+    provider: "a8"
+    reason: "脱毛カテゴリの主力4記事がCTAゼロの状態。承認され次第それぞれの順位枠へ設置する。"
+    targets: ["湘南美容クリニック", "リゼクリニック", "エミナルクリニック", "レジーナクリニック", "アリシアクリニック"]
+    articles: ["datsumo-clinic-ranking", "datsumo-student-guide", "mens-datsumo-ranking", "vio-datsumo-guide", "face-datsumo-guide"]
+
+  mens_datsumo:
+    priority: "高"
+    provider: "a8"
+    targets: ["メンズリゼクリニック", "ゴリラクリニック", "メンズエミナルクリニック"]
+    articles: ["mens-datsumo-ranking"]
+
+  medical_diet:
+    priority: "高"
+    provider: "a8"
+    reason: "CTAが6個あるが全てURL未設定。"
+    targets: ["湘南美容クリニック", "Dクリニック", "TCB東京中央美容外科", "銀座よしえクリニック", "クリニックフォア"]
+    articles: ["medical-diet-clinic"]
+
+  whitening:
+    priority: "中"
+    provider: "a8"
+    targets: ["ホワイトニングバー", "ホワイトエッセンス", "ブライトスマイル", "プレミアムホワイトニング"]
+    articles: ["whitening-clinic-guide", "self-whitening-guide"]
+
+  credit_cards:
+    priority: "中"
+    provider: "a8"
+    targets: ["楽天カード", "JCBカードW", "dカード", "セゾンパール・アメックス", "PayPayカード", "三井住友カード（NL）"]
+    articles: ["credit-card-cashback", "credit-card-beauty-ranking"]
+
+  aga:
+    priority: "中"
+    provider: "a8"
+    reason: "既存リンクが別広告主だったため削除済み。正規のリンクを取り直す。"
+    targets: ["AGAスキンクリニック", "クリニックフォア", "DクリニックTokyo"]
+    articles: ["aga-clinic-ranking"]
+
+  supplements_moshimo:
+    priority: "中"
     provider: "moshimo"
-    articles: ["summer-uv-care"]
+    reason: "上記 broken のリンク再発行と同じ作業。"
+    articles: ["collagen-supplement-ranking", "summer-uv-care", "whitening-supplement-ranking", "vitamin-c-supplement-ranking", "mens-skincare-guide"]
