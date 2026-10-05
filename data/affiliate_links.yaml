@@ -1,5 +1,6 @@
 # アフィリエイトリンク管理ファイル
-# 最終更新: 2026-09-11（記事の実態を反映して全面的に作り直し）
+# 最終更新: 2026-10-05（もしも16本の正常化・A8 5本の再確認・破産事業者の除外を反映）
+# 前回: 2026-09-11（記事の実態を反映して全面的に作り直し）
 #
 # status: live=記事に設置・遷移先確認済 / broken=リンクが壊れている
 #         removed=不適切なため削除済 / pending=未申請 / applying=申請中
@@ -53,23 +54,18 @@ live:
     articles: ["poikatsu-guide"]
 
 # =============================
-# 🔴 壊れているリンク（要・再発行）
+# ✅ もしもアフィリエイト（2026-10-05 実開通確認済み）
+# 2026-09-11 時点では全16本が同一URL・pl_id空で404だったが、その後再発行され正常化。
+# 16本すべてHTTP 200・商品別の楽天検索URL・計測パラメータ（scid=af_pc_etc）有効。
 # =============================
-broken:
-  moshimo_rakuten_template:
-    name: "もしもアフィリエイト 楽天市場リンク（共通テンプレート）"
-    status: "broken"
-    provider: "moshimo"
-    url: "https://af.moshimo.com/af/c/click?a_id=5508825&p_id=54&pc_id=54&pl_id="
-    problem: |
-      商品IDにあたる pl_id= が空のままで、アクセスすると HTTP 404。
-      同一URLが16箇所にコピーされており、全て読者にエラーページを表示する。
-      もしもアフィリエイトの管理画面で商品ごとにリンクを再発行し、
-      下記の各商品に個別のURLを割り当てる必要がある。
-    used_in:
-      collagen-supplement-ranking: ["DHCコラーゲン", "FANCLコラーゲン", "資生堂 ザ・コラーゲン", "明治ザバスコラーゲン", "オリヒロ コラーゲンパウダー"]
-      summer-uv-care: ["アネッサ パーフェクトUV", "ビオレUV アクアリッチ", "ラロッシュポゼ UVイデア", "ALLIE クロノビューティ", "ニベアサン プロテクト", "ママバター UVケアクリーム", "オルビス サンスクリーン"]
-      whitening-supplement-ranking: ["ヘリオケア", "トランシーノ", "DHC ビタミンC", "シナールL"]
+moshimo_live:
+  status: "live"
+  provider: "moshimo"
+  verified: "2026-10-05"
+  articles:
+    collagen-supplement-ranking: ["DHCコラーゲン", "FANCLコラーゲン", "資生堂 ザ・コラーゲン", "明治ザバスコラーゲン", "オリヒロ コラーゲンパウダー"]
+    summer-uv-care: ["アネッサ パーフェクトUV", "ビオレUV アクアリッチ", "ラロッシュポゼ UVイデア", "ALLIE クロノビューティ", "ニベアサン プロテクト", "ママバター UVケアクリーム", "オルビス サンスクリーン"]
+    whitening-supplement-ranking: ["ヘリオケア", "トランシーノ", "DHC ビタミンC", "シナールL"]
 
 # =============================
 # ❌ 削除済み（記事から取り外したリンク）
@@ -124,7 +120,7 @@ pending:
     priority: "最優先"
     provider: "a8"
     reason: "脱毛カテゴリの主力4記事がCTAゼロの状態。承認され次第それぞれの順位枠へ設置する。"
-    targets: ["湘南美容クリニック", "リゼクリニック", "エミナルクリニック", "レジーナクリニック", "アリシアクリニック"]
+    targets: ["湘南美容クリニック", "リゼクリニック", "エミナルクリニック", "レジーナクリニック"]  # アリシアは運営法人破産のため除外（2026-10-05）
     articles: ["datsumo-clinic-ranking", "datsumo-student-guide", "mens-datsumo-ranking", "vio-datsumo-guide", "face-datsumo-guide"]
 
   mens_datsumo:
