@@ -1,0 +1,52 @@
+name: Index Check
+
+# Search Console URL検査APIで、各記事のインデックス状況を確認する。
+# - 手動実行: GitHub の Actions 画面から「Run workflow」
+# - このファイルか scripts/index_check.py を更新して push したときも1回実行される
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/index_check.py"
+      - ".github/workflows/index-check.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Write service account credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > /tmp/gcp-sa.json
+
+      - name: Run index check
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcp-sa.json
+          SC_SITE_URL: ${{ secrets.SC_SITE_URL }}
+        run: python scripts/index_check.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "chore(report): index status $(date +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
