@@ -108,6 +108,6 @@ description: "キレイまとめは、脱毛・美容医療・健康サプリ・
 
 ---
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="人気記事：脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="人気記事：脱毛クリニックおすすめランキングTOP4" >}}
 {{< related url="/ranking/" icon="📊" title="全ジャンルのランキング一覧を見る" >}}
 {{< related url="/privacy-policy/" icon="📄" title="プライバシーポリシー・免責事項" >}}

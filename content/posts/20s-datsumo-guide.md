@@ -80,7 +80,7 @@ cover:
 
 ## 📚 あわせて読みたい
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP4" >}}
 {{< related url="/posts/vio-datsumo-guide/" icon="🌸" title="VIO脱毛完全ガイド" >}}
 {{< related url="/posts/datsumo-student-guide/" icon="🎓" title="学生向け脱毛ガイド" >}}
 {{< related url="/posts/datsumo-price-guide/" icon="💰" title="脱毛の料金相場ガイド" >}}

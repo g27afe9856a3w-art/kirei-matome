@@ -220,7 +220,7 @@ cover:
 
 ## 📚 あわせて読みたい
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP4" >}}
 {{< related url="/posts/datsumo-price-guide/" icon="💰" title="脱毛の料金相場ガイド｜部位別・回数別の目安" >}}
 {{< related url="/posts/datsumo-salon-vs-clinic/" icon="⚖️" title="医療脱毛 vs サロン脱毛｜徹底比較" >}}
 
@@ -240,7 +240,7 @@ cover:
 
 ---
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="💆" title="脱毛クリニックおすすめランキングTOP5（女性向け）" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="💆" title="脱毛クリニックおすすめランキングTOP4（女性向け）" >}}
 
 {{< related url="/posts/datsumo-price-guide/" icon="💰" title="脱毛の料金相場ガイド｜安くお得に脱毛する方法" >}}
 

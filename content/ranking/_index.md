@@ -15,7 +15,7 @@ draft: false
 
 脱毛クリニック・サロンのおすすめをランキング形式で紹介します。料金や効果、部位別の比較も詳しく解説しています。
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5｜料金・効果・口コミ徹底比較" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP4｜料金・効果・口コミ徹底比較" >}}
 
 {{< related url="/posts/datsumo-student-guide/" icon="🎓" title="学生向け脱毛おすすめランキング｜安くてお得な学割クリニック比較" >}}
 

@@ -193,6 +193,6 @@ cover:
 **関連記事もチェック**
 
 - [脱毛サロンvs脱毛クリニック完全比較]({{< ref "posts/datsumo-salon-vs-clinic.md" >}})
-- [脱毛クリニックおすすめランキングTOP5]({{< ref "posts/datsumo-clinic-ranking.md" >}})
+- [脱毛クリニックおすすめランキングTOP4]({{< ref "posts/datsumo-clinic-ranking.md" >}})
 - [脱毛の料金相場ガイド]({{< ref "posts/datsumo-price-guide.md" >}})
 - [VIO脱毛完全ガイド]({{< ref "posts/vio-datsumo-guide.md" >}})

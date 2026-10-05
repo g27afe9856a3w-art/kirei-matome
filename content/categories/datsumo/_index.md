@@ -13,7 +13,7 @@ description: "脱毛クリニック・サロンを徹底比較。料金・効果
 
 ## 🏆 脱毛カテゴリ 人気記事
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🥇" title="脱毛クリニックおすすめランキングTOP5｜料金・効果・口コミ徹底比較" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🥇" title="脱毛クリニックおすすめランキングTOP4｜料金・効果・口コミ徹底比較" >}}
 {{< related url="/posts/mens-datsumo-ranking/" icon="💪" title="メンズ脱毛クリニックおすすめTOP5｜ヒゲ・VIO・全身を徹底比較" >}}
 {{< related url="/posts/vio-datsumo-guide/" icon="🌸" title="VIO脱毛完全ガイド｜痛み・料金・選び方をプロが解説" >}}
 {{< related url="/posts/datsumo-student-guide/" icon="🎓" title="学生向け脱毛ガイド｜学割で安く始めるベストな方法" >}}

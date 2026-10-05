@@ -117,7 +117,7 @@ cover:
 
 ## おすすめのクリニック・サロン
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="【2026年最新】脱毛クリニックおすすめランキングTOP5｜料金・効果・口コミ徹底比較" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="【2026年最新】脱毛クリニックおすすめランキングTOP4｜料金・効果・口コミ徹底比較" >}}
 
 ---
 
@@ -141,7 +141,7 @@ cover:
 
 ## 📚 あわせて読みたい
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP4" >}}
 {{< related url="/posts/datsumo-price-guide/" icon="💰" title="脱毛の料金相場ガイド｜部位別・回数別の目安" >}}
 
 ---

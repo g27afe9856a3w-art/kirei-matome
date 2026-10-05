@@ -110,7 +110,7 @@ cover:
 
 ---
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="料金が安い脱毛クリニックランキングTOP5を見る" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="料金が安い脱毛クリニックランキングTOP4を見る" >}}
 
 ---
 
@@ -134,7 +134,7 @@ cover:
 
 ## 📚 あわせて読みたい
 
-{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP5" >}}
+{{< related url="/posts/datsumo-clinic-ranking/" icon="🏆" title="脱毛クリニックおすすめランキングTOP4" >}}
 {{< related url="/posts/datsumo-salon-vs-clinic/" icon="⚖️" title="医療脱毛 vs サロン脱毛｜徹底比較" >}}
 
 ---
