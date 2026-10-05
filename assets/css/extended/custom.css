@@ -1748,3 +1748,14 @@ h1, h2, h3, h4, h5, h6,
   box-shadow: 0 1px 2px rgba(60,40,20,0.04) !important;
 }
 .feature-text { color: var(--ink-soft) !important; }
+
+/* ステマ規制対応：記事冒頭の広告表記（layouts/_default/single.html の .pr-notice） */
+.pr-notice {
+  margin: 12px 0 0;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  background: var(--code-bg);
+  border-radius: 4px;
+  display: inline-block;
+}

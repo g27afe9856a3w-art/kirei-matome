@@ -1,5 +1,6 @@
 ---
 title: "【2026年最新】顔脱毛おすすめクリニック・サロン比較｜産毛もツルツル美肌に"
+lastmod: 2026-10-05
 date: 2026-04-19
 draft: false
 categories: ["datsumo"]
@@ -196,3 +197,5 @@ cover:
 - [脱毛クリニックおすすめランキングTOP4]({{< ref "posts/datsumo-clinic-ranking.md" >}})
 - [脱毛の料金相場ガイド]({{< ref "posts/datsumo-price-guide.md" >}})
 - [VIO脱毛完全ガイド]({{< ref "posts/vio-datsumo-guide.md" >}})
+
+> **免責事項**：本記事にはアフィリエイト広告が含まれています。掲載情報は執筆時点のものです。最新の料金・内容は各公式サイトでご確認ください。

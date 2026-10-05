@@ -1,5 +1,6 @@
 ---
 title: "【2026年夏版】紫外線対策完全ガイド｜日焼け止め・サプリ・UVグッズおすすめ"
+lastmod: 2026-10-05
 date: 2026-04-19
 draft: false
 categories: ["kenko"]
@@ -228,3 +229,5 @@ UV-Aは窓ガラスを通過するため、**室内にいても油断禁物**で
 - [飲む日焼け止め・美白サプリおすすめランキング]({{< ref "posts/whitening-supplement-ranking.md" >}})
 - [ビタミンCサプリおすすめランキング]({{< ref "posts/vitamin-c-supplement-ranking.md" >}})
 - [美容皮膚科おすすめランキング]({{< ref "posts/skincare-ranking.md" >}})
+
+> **免責事項**：本記事にはアフィリエイト広告が含まれています。掲載情報は執筆時点のものです。最新の料金・内容は各公式サイトでご確認ください。
