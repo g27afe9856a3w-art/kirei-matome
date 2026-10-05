@@ -83,7 +83,9 @@ def main() -> int:
 
     today = datetime.now(JST).strftime("%Y-%m-%d")
     indexed = [r for r in rows if r["verdict"] == "PASS"]
-    cov = Counter(COVERAGE_JA.get(r["coverage"], r["coverage"]) for r in rows)
+    mark = {"PASS": "✅", "NEUTRAL": "⚠️", "FAIL": "❌"}
+    label = lambda r: f'{mark.get(r["verdict"], "")} {COVERAGE_JA.get(r["coverage"], r["coverage"])}'.strip()
+    cov = Counter(label(r) for r in rows)
 
     out = [f"# インデックス状況（{today}）", "",
            "Search Console URL検査APIによる取得。`scripts/index_check.py` が自動生成。", "",
@@ -97,8 +99,25 @@ def main() -> int:
             "| URL | 状態 | 最終クロール | 取得 |", "|---|---|---|---|"]
     for r in sorted(rows, key=lambda x: (x["verdict"] == "PASS", x["url"])):
         path = r["url"].replace(SITE.rstrip("/"), "") or "/"
-        out.append(f"| `{path}` | {COVERAGE_JA.get(r['coverage'], r['coverage'])} "
+        out.append(f"| `{path}` | {label(r)} "
                    f"| {r['last_crawl'] or '未クロール'} | {r['fetch']} |")
+    out += ["", "## Search Console に送信済みの sitemap", ""]
+    try:
+        sm = service.sitemaps().list(siteUrl=site_url).execute().get("sitemap", [])
+        if not sm:
+            out.append("**送信済みの sitemap がありません。**")
+        else:
+            out += ["| sitemap | 最終送信 | Googleの最終読込 | 状態 | エラー | 警告 | 送信URL数 |",
+                    "|---|---|---|---|---:|---:|---:|"]
+            for m in sm:
+                submitted = sum(int(c.get("submitted", 0)) for c in m.get("contents", []))
+                out.append(f"| `{m.get('path')}` | {(m.get('lastSubmitted') or '')[:10]} "
+                           f"| {(m.get('lastDownloaded') or '未読込')[:10]} "
+                           f"| {'処理待ち' if m.get('isPending') else '処理済み'} "
+                           f"| {m.get('errors', 0)} | {m.get('warnings', 0)} | {submitted} |")
+    except Exception as e:
+        out.append(f"取得エラー: {str(e)[:200]}")
+
     if errors:
         out += ["", "## 取得エラー", ""] + [f"- `{u}`: {e}" for u, e in errors]
 
