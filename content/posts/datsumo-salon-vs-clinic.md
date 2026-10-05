@@ -1,5 +1,6 @@
 ---
-title: "【2026年4月最新】【徹底比較】脱毛サロンvs脱毛クリニックどっちがいい？料金・効果・痛みを解説"
+title: "【2026年最新】脱毛サロンvs脱毛クリニックどっちがいい？料金・効果・痛みを解説"
+lastmod: 2026-10-05
 date: 2026-04-12
 draft: false
 categories: ["datsumo"]
@@ -156,7 +157,7 @@ cover:
 {{< /summary >}}
 
 
-{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+929KAA+4MJA+5YRHE" text="ルシアクリニック（医療脱毛）の無料カウンセリングを予約" sub="全身5回月額4,600円〜・医療脱毛No.1" >}}
+{{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+929KAA+4MJA+5YRHE" text="ルシアクリニック（医療脱毛）の無料カウンセリングを予約" sub="全身5回月額4,600円〜・医療脱毛" >}}
 
 {{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1K5K+8XI3G2+2FM6+60WN6" text="RinRin（脱毛サロン）の料金を見る" sub="全国54店舗以上・通いやすい脱毛サロン" >}}
 

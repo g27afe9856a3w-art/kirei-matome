@@ -1,5 +1,6 @@
 ---
 title: "【2026年版】ポイ活で月1万円稼ぐ方法｜初心者が最短で稼げる完全ガイド"
+lastmod: 2026-10-05
 date: 2026-04-04
 draft: false
 categories: ["okane"]
@@ -58,7 +59,7 @@ cover:
 
 {{< cta url="https://px.a8.net/svt/ejp?a8mat=4B1N9L+DA33JM+1LP8+BY642" text="ハピタスに無料登録する" sub="日々の生活にハッピーをプラス！" >}}
 
-{{< ranking num="2" name="モッピー｜会員数No.1・案件の幅が広い" >}}
+{{< ranking num="2" name="モッピー｜会員数が多い・案件の幅が広い" >}}
 | 項目 | 内容 |
 |------|------|
 | 現金交換レート | **1pt = 1円** |
