@@ -36,6 +36,7 @@ jobs:
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcp-sa.json
           SC_SITE_URL: ${{ secrets.SC_SITE_URL }}
+          SUBMIT_SITEMAP: "1"
         run: python scripts/index_check.py
 
       - name: Commit report

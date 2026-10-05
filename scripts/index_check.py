@@ -101,6 +101,18 @@ def main() -> int:
         path = r["url"].replace(SITE.rstrip("/"), "") or "/"
         out.append(f"| `{path}` | {label(r)} "
                    f"| {r['last_crawl'] or '未クロール'} | {r['fetch']} |")
+    if os.environ.get("SUBMIT_SITEMAP") == "1":
+        out += ["", "## sitemap の再送信", ""]
+        try:
+            wcreds = service_account.Credentials.from_service_account_file(
+                creds_path, scopes=["https://www.googleapis.com/auth/webmasters"])
+            wservice = build("searchconsole", "v1", credentials=wcreds, cache_discovery=False)
+            wservice.sitemaps().submit(siteUrl=site_url, feedpath=SITE + "sitemap.xml").execute()
+            out.append(f"✅ `{SITE}sitemap.xml` を再送信しました（{today}）。Googleが読み直すまで数日かかることがあります。")
+        except Exception as e:
+            out.append(f"❌ 再送信に失敗: {str(e)[:300]}")
+            out.append("（サービスアカウントに Search Console の『フル』権限が無い場合に起きる。画面から手動で再送信できる）")
+
     out += ["", "## Search Console に送信済みの sitemap", ""]
     try:
         sm = service.sitemaps().list(siteUrl=site_url).execute().get("sitemap", [])
