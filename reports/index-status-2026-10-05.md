@@ -45,6 +45,11 @@ Search Console URL検査APIによる取得。`scripts/index_check.py` が自動�
 | `/posts/collagen-supplement-ranking/` | ✅ 送信して登録されました | 2026-08-08 | SUCCESSFUL |
 | `/posts/protein-ranking/` | ✅ 送信して登録されました | 2026-09-28 | SUCCESSFUL |
 
+## sitemap の再送信
+
+❌ 再送信に失敗: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/sc-domain%3Akirei-matome.com/sitemaps/https%3A%2F%2Fkirei-matome.com%2Fsitemap.xml? returned "User does not have sufficient permission for site 'sc-domain:kirei-matome.com'. See also: https://support.google.com/w
+（サービスアカウントに Search Console の『フル』権限が無い場合に起きる。画面から手動で再送信できる）
+
 ## Search Console に送信済みの sitemap
 
 | sitemap | 最終送信 | Googleの最終読込 | 状態 | エラー | 警告 | 送信URL数 |
